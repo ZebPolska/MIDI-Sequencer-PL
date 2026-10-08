@@ -1,0 +1,5823 @@
+; -------------------------------------------------------------------------------------------
+; PSR-SX900 Cakewalk Instrument Definition 
+; Created: Feb 2020
+; Numbering is zero-based
+; -------------------------------------------------------------------------------------------
+
+; *******************************************************************************************
+.Patch Names
+; *******************************************************************************************
+;----------------------------------------------------------------------------------
+;  Megavoices
+;----------------------------------------------------------------------------------
+
+[PSR-SX900 Megavoices Bank 1024]
+0=MegaVoice NylonGuitar
+1=MegaVoice SteelGuitar
+2=MegaVoice HiStringGuitar
+3=MegaVoice CleanGuitar
+4=MegaVoice OverdriveGuitar
+5=MegaVoice DistortionGuitar
+6=MegaVoice JazzGuitar
+16=MegaVoice AcousticBass
+17=MegaVoice ElectricBass
+18=MegaVoice PickBass
+19=MegaVoice FretlessBass
+48=MegaVoice SmallStrings
+49=MegaVoice LargeStrings
+51=MegaVoice MaleVoiceChoir
+54=MegaVoice GospelChoir
+56=MegaVoice Brass
+64=MegaVoice Trumpet
+82=MegaVoice TenorSax
+100=MegaVoice PopHaa
+101=MegaVoice PopDaa
+102=MegaVoice PopBaa
+103=MegaVoice PopShoo
+105=MegaVoice PopHoo
+106=MegaVoice PopDoo
+107=MegaVoice PopBee
+110=MegaVoice PopHee
+115=MegaVoice PopHaaLegato
+120=MegaVoice PopHooLegato
+125=MegaVoice PopHeeLegato
+
+[PSR-SX900 Megavoices Bank 1025]
+1=MegaVoice SteelAcousticPick
+2=MegaVoice 12StringGuitar
+3=MegaVoice SolidGuitar1
+17=MegaVoice VintageRound
+18=MegaVoice VintagePick
+48=MegaVoice ClassicalStrings
+49=MegaVoice SeattleStrings
+56=MegaVoice PopHorns1
+
+[PSR-SX900 Megavoices Bank 1026]
+1=MegaVoice SteelAcousticSlap
+3=MegaVoice SolidGuitar2
+17=MegaVoice VintageFlat
+56=MegaVoice PopHorns2
+
+[PSR-SX900 Megavoices Bank 1027]
+0=MegaVoice FlamencoGuitar
+3=MegaVoice SingleCoilGuitar
+
+[PSR-SX900 Megavoices Bank 1028]
+0=MegaVoice SpanishMedium
+3=MegaVoice 50sVintageFinger
+
+[PSR-SX900 Megavoices Bank 1029]
+0=MegaVoice SpanishHard
+1=MegaVoice SteelGuitarTwin1
+3=MegaVoice 50sVintageFingerSlap
+
+[PSR-SX900 Megavoices Bank 1030]
+1=MegaVoice SteelGuitarTwin2
+3=MegaVoice 50sVintagePick
+
+[PSR-SX900 Megavoices Bank 1031]
+1=MegaVoice 12StringPickTwin1
+3=MegaVoice 50sVintageSlap
+1=MegaVoice 12StringPickTwin2
+3=MegaVoice SlapAmpGuitar
+
+[PSR-SX900 Megavoices Bank 1032]
+1=MegaVoice 12StringPickTwin2
+3=MegaVoice SlapAmpGuitar
+
+
+;----------------------------------------------------------------------------------
+;   Super Articulation
+;----------------------------------------------------------------------------------
+
+[PSR-SX900 SuperArticulation Bank 1056]
+0=S.Art! ConcertGuitar
+1=S.Art! SteelGuitar
+3=S.Art! WarmElectric SW
+4=S.Art! HeavyRockGuitar
+5=S.Art! GuitarHero
+6=S.Art! JazzGuitarClean
+16=S.Art! AcousticBass
+17=S.Art! VintageRound
+18=S.Art! VintageMute
+19=S.Art! FretlessBass
+29=S.Art! WhiterBars JS
+30=S.Art! AllBarsOut JS
+39=S.Art! Haa
+40=S.Art! Ooh
+43=S.Art! Seattle1stViolins
+44=S.Art! Seattle2ndViolins
+45=S.Art! SeattleViolas
+46=S.Art! SeattleCellos
+47=S.Art! SeattleBasses
+48=S.Art! StudioStrings
+49=S.Art! ConcertStrings
+51=S.Art! BoysChoirOoh
+54=S.Art! GospelVocalsHmm
+55=S.Art! Shoo-Bee-Doo-Bah1 SW
+56=S.Art! BrassShake JS
+60=S.Art! SoftOrchHorns
+64=S.Art! BrightTrumpet
+66=S.Art! CleanAltoSax
+68=S.Art! MOR Oboe
+73=S.Art! OrchestralFlute
+82=S.Art! Saxophone
+112=S.Art! Harpsichord JS
+113=S.Art! JazzRotary JS
+120=S.Art! MagicBell
+122=S.Art! BPF Buzz JS
+123=S.Art! SquareStack JS
+
+[PSR-SX900 SuperArticulation Bank 1057]
+0=S.Art! FlamencoGuitar
+1=S.Art! FolkGtHarmonics SW
+3=S.Art! WarmSolid
+4=S.Art! Feedbacker JS
+5=S.Art! CrunchGuitar
+6=S.Art! SemiAcoustic
+11=S.Art! Vibes&JazzGuitar
+16=S.Art! SoftAcousticBass
+17=S.Art! VintageFlat
+20=S.Art! Clavi JS
+29=S.Art! ProgRockOrgan JS
+39=S.Art! BoysHaaVibrato
+40=S.Art! OohVibrato
+43=S.Art! Orchestral1stViolin
+44=S.Art! Orchestral2ndViolin
+45=S.Art! OrchestralViola
+46=S.Art! OrchestralCello
+48=S.Art! Spiccato
+49=S.Art! SeattleStrings
+51=S.Art! BoysChoirAah
+54=S.Art! GospelVocalsWow
+60=S.Art! WarmOrchHorns
+64=S.Art! SilverTrumpet
+82=S.Art! RockSax JS
+113=S.Art! RockOrgan JS
+122=S.Art! Wobble JS
+123=S.Art! FourStack JS
+
+[PSR-SX900 SuperArticulation Bank 1058]
+0=S.Art! NylonGuitar SW
+1=S.Art! SpanishGuitar
+3=S.Art! CleanSolid
+4=S.Art! WarmBlues
+5=S.Art! RockLegend
+16=S.Art! AcousticJazzBass
+20=S.Art! ClaviFunk JS
+29=S.Art! ClassicBars JS
+39=S.Art! BoysHaa
+40=S.Art! BoysOoh
+43=S.Art! Classic1stVns
+44=S.Art! Classic2ndVns
+45=S.Art! ClassicViolas
+46=S.Art! ClassicCellos
+47=S.Art! SeattleQuartet
+48=S.Art! TremoloBowing JS
+49=S.Art! BalladStrings
+51=S.Art! BoysChoir JS
+54=S.Art! GospelVocalsHey
+56=S.Art! BrassFalls&Doits JS
+60=S.Art! MutedHorns
+64=S.Art! GoldenTrumpet
+66=S.Art! SoftAltoSax
+122=S.Art! RampBass JS
+123=S.Art! CoolHiPa JS
+
+[PSR-SX900 SuperArticulation Bank 1059]
+0=S.Art! ElectroAcoustic
+1=S.Art! FlamencoGuitar
+3=S.Art! CleanElectric SW
+4=S.Art! BrightBlues
+5=S.Art! RockHero
+6=S.Art! JazzGuitarSmooth SW
+39=S.Art! GirlsHaa
+40=S.Art! BoysOohVibrato
+49=S.Art! SeattleSlowStrings
+51=S.Art! BoysChoirOoh p
+54=S.Art! GospelWow-Hey SW
+55=S.Art! Shoo-BeeDynamic SW
+56=S.Art! BrassFalls mf JS
+64=S.Art! TrumpetShake JS
+82=S.Art! BigBandSax
+122=S.Art! SquarePluck JS
+123=S.Art! NuLine JS
+
+[PSR-SX900 SuperArticulation Bank 1060]
+1=S.Art! SpanishElectro
+3=S.Art! PedalSteelGuitar
+4=S.Art! BluesySlapSlide SW
+5=S.Art! 50sVintageRock
+20=S.Art! ClaviAmped JS
+40=S.Art! GirlsOoh
+48=S.Art! SeattleClassical
+51=S.Art! BoysChoirAah p
+54=S.Art! GospelHmm-Aah JS
+55=S.Art! Ba-Da-Yah
+56=S.Art! SmoothBrass
+82=S.Art! SmoothSaxes2
+123=S.Art! WheelTech JS
+
+[PSR-SX900 SuperArticulation Bank 1061]
+1=S.Art! SteelAcousticPick
+3=S.Art! HalfDrive
+4=S.Art! BluesyFinger
+5=S.Art! 50sVintageBlues
+40=S.Art! GirlsOohVibrato
+48=S.Art! TheatreStrings
+51=S.Art! BoysChoirOoh f
+54=S.Art! GospelWow-Hey JS
+56=S.Art! BigBandBrass SW
+64=S.Art! BigBandTrumpet
+82=S.Art! SmoothSaxesOctave
+123=S.Art! Redoubling JS
+
+[PSR-SX900 SuperArticulation Bank 1062]
+1=S.Art! ChickenPick SW
+3=S.Art! 70sSolidGuitar
+4=S.Art! CleanFingers
+5=S.Art! StageLead
+6=S.Art! JazzGuitarAmp
+39=S.Art! Wah
+40=S.Art! Doo
+51=S.Art! BoysChoirAah f
+56=S.Art! AccentFalls JS
+64=S.Art! TrumpetFall JS
+82=S.Art! SmoothSaxes1
+
+[PSR-SX900 SuperArticulation Bank 1063]
+1=S.Art! 12StringPicked
+3=S.Art! SingleCoilClean
+4=S.Art! RoughFingers
+5=S.Art! OverdriveWahWah
+6=S.Art! JazzArtistGuitar
+39=S.Art! WahVibrato
+40=S.Art! DooVibrato
+48=S.Art! SeattleWarm
+55=S.Art! Hoo-Wah SW
+82=S.Art! MellowSaxes
+
+[PSR-SX900 SuperArticulation Bank 1064]
+1=S.Art! 12StringStrum SW
+3=S.Art! VintageAmp
+4=S.Art! CountryPickDrive
+5=S.Art! GrungeGuitar
+6=S.Art! SolidJazzGuitar
+39=S.Art! SoftWah
+40=S.Art! BoysDoo
+48=S.Art! BigStrings
+49=S.Art! SeattleStrings f
+55=S.Art! PopVocals
+
+[PSR-SX900 SuperArticulation Bank 1065]
+3=S.Art! 50sVintageAmp
+4=S.Art! CountryPickVintage
+5=S.Art! ClassicAmpStack
+39=S.Art! Baa
+40=S.Art! GirlsDoo
+48=S.Art! SeattleLushStrings
+49=S.Art! SeattleStrings mf
+55=S.Art! LatinVocals SW
+56=S.Art! WarmPopHorns
+
+[PSR-SX900 SuperArticulation Bank 1066]
+3=S.Art! FingerChorus
+5=S.Art! 50sVintagePure
+39=S.Art! BaaVibrato
+40=S.Art! Yoo
+48=S.Art! SeattleChamber
+49=S.Art! SeattleStrings p
+55=S.Art! JazzScatVocals SW
+56=S.Art! BrightHornSection
+
+[PSR-SX900 SuperArticulation Bank 1067]
+3=S.Art! FingerAmp
+5=S.Art! 50sVintageFull
+40=S.Art! YooVibrato
+48=S.Art! SeattleStringsPad
+49=S.Art! SeattleRomance
+55=S.Art! BaroqueScat SW
+56=S.Art! PopHornsMellow
+
+[PSR-SX900 SuperArticulation Bank 1068]
+3=S.Art! CountryPick
+5=S.Art! 50sVintageSolo
+56=S.Art! PopHornsBright
+
+[PSR-SX900 SuperArticulation Bank 1069]
+3=S.Art! BrightChorus
+5=S.Art! 50sVintageStage
+39=S.Art! Daa
+55=S.Art! JazzScatShoo SW
+56=S.Art! PopHornsCresc JS
+
+[PSR-SX900 SuperArticulation Bank 1070]
+3=S.Art! BalladDelay
+5=S.Art! 50sDriveWahWah
+39=S.Art! DaaVibrato
+55=S.Art! JazzScatDwee SW
+56=S.Art! PopHornsDoit SW
+
+[PSR-SX900 SuperArticulation Bank 1071]
+3=S.Art! VintagePure
+5=S.Art! 50sHeavyRock
+55=S.Art! Shoo-Bee-Doo-Bah2 SW
+56=S.Art! PopHornsFall SW
+
+[PSR-SX900 SuperArticulation Bank 1072]
+3=S.Art! VintageSlap
+5=S.Art! 50sVintageDelay
+55=S.Art! Do-Be-Do-Be SW
+56=S.Art! PopHornsSwell JS
+
+[PSR-SX900 SuperArticulation Bank 1073]
+3=S.Art! FunkSlap
+5=S.Art! 50sVintageWarm
+40=S.Art! Ahh-OohAuto SW
+55=S.Art! BoysChoirOh-Ah SW
+
+[PSR-SX900 SuperArticulation Bank 1074]
+3=S.Art! FingerBright
+5=S.Art! SoloKing
+55=S.Art! JazzScatLegato
+
+[PSR-SX900 SuperArticulation Bank 1075]
+3=S.Art! FingerSlapSlide SW
+5=S.Art! BigAmpCombo
+55=S.Art! Ya-Ba-Da-Ba SW
+
+[PSR-SX900 SuperArticulation Bank 1076]
+3=S.Art! PedalSteelAmp
+5=S.Art! OldiesGuitar
+55=S.Art! Do-We-Yo-Be SW
+
+[PSR-SX900 SuperArticulation Bank 1077]
+3=S.Art! LightChorus
+5=S.Art! RhythmKing
+55=S.Art! What-Should-We-Do SW
+
+[PSR-SX900 SuperArticulation Bank 1078]
+3=S.Art! 50sVintageSpring
+5=S.Art! 70sJazzCombo
+55=S.Art! Who-Are-You SW
+
+[PSR-SX900 SuperArticulation Bank 1079]
+3=S.Art! BluesyNight
+5=S.Art! HalfWahLead
+55=S.Art! Shoo-Ba-Doo-Ba SW
+
+[PSR-SX900 SuperArticulation Bank 1080]
+3=S.Art! ShadowedGuitar
+5=S.Art! WahWahGuitar
+55=S.Art! Hoo-WeeAuto SW
+
+[PSR-SX900 SuperArticulation Bank 1081]
+3=S.Art! SixtiesGuitar
+
+[PSR-SX900 SuperArticulation Bank 1082]
+3=S.Art! SeventiesChorus
+
+; -----------------------------
+;OrganFlutes Voices
+; -----------------------------
+[PSR-SX900 OrganFlutes Bank 1280]
+0=OrganFlutes JazzStandard
+1=OrganFlutes HomeOrganBallad
+2=OrganFlutes EuroPercussion
+8=OrganFlutes OrganFlutes
+9=OrganFlutes StringBars
+10=OrganFlutes EuroPerc
+
+[PSR-SX900 OrganFlutes Bank 1281]
+0=OrganFlutes UpsideDownSmile
+1=OrganFlutes Home16&Odds
+2=OrganFlutes EuroBallad
+8=OrganFlutes USDSmile
+9=OrganFlutes LatinSpin
+10=OrganFlutes BalladEuro
+
+[PSR-SX900 OrganFlutes Bank 1282]
+0=OrganFlutes OrganPops
+1=OrganFlutes HomeTheatreOrgan
+2=OrganFlutes EuroReeds
+8=OrganFlutes ReggaeBars
+9=OrganFlutes ShadyBars
+10=OrganFlutes EuroReeds
+
+[PSR-SX900 OrganFlutes Bank 1283]
+0=OrganFlutes RockOrgan
+1=OrganFlutes HomeOrganJazz
+2=OrganFlutes EuroEvenWarmth
+8=OrganFlutes WarmTheatre
+9=OrganFlutes FunkOrgan
+10=OrganFlutes EvenWarmth
+
+[PSR-SX900 OrganFlutes Bank 1284]
+0=OrganFlutes GospelOrgan
+1=OrganFlutes HomeHollowTibias
+2=OrganFlutes EuroBright
+8=OrganFlutes OrganPops
+9=OrganFlutes BalladOrgan
+10=OrganFlutes BrightEuro
+
+[PSR-SX900 OrganFlutes Bank 1285]
+0=OrganFlutes BalladOrgan
+1=OrganFlutes HomeOrganEvens
+2=OrganFlutes EuroPops
+8=OrganFlutes RockOrgan
+9=OrganFlutes RichBars
+10=OrganFlutes EuroPops
+
+[PSR-SX900 OrganFlutes Bank 1286]
+0=OrganFlutes OrganClarinet
+1=OrganFlutes HomeOrganWarmth
+2=OrganFlutes EuroFull
+8=OrganFlutes SoulPercussion
+9=OrganFlutes TrumpetBars
+10=OrganFlutes FullEuro
+
+[PSR-SX900 OrganFlutes Bank 1287]
+0=OrganFlutes JazzSquabble
+1=OrganFlutes HomeOrganFull
+2=OrganFlutes EuroMelodic
+8=OrganFlutes GospelTruth
+9=OrganFlutes SoulBars
+10=OrganFlutes EuroAccomp1
+
+[PSR-SX900 OrganFlutes Bank 1288]
+8=OrganFlutes PadOrgan
+9=OrganFlutes ClariBars
+10=OrganFlutes EuroAccomp2
+
+[PSR-SX900 OrganFlutes Bank 1289]
+8=OrganFlutes FullOrgan
+9=OrganFlutes JazzSquabble
+10=OrganFlutes EuroAccomp3
+
+
+;----------------------------------------------------------------------------------
+;  MSB104 Voices
+;----------------------------------------------------------------------------------
+
+[PSR-SX900 MSB104 Bank 13312]
+2=Live! MIDIGrand
+3=Live! CocktailPiano
+4=Magnetics
+5=Cool! DX Sweet
+9=Glockenspiel
+12=Marimba
+13=Xylophone
+15=Zither2
+16=Cool! OrganAGoGo
+17=Cool! WhiterBarsFast
+18=Cool! AllBarsOutFast
+19=Live! ConcertOrganTutti
+21=Cassotto
+26=Cool! SlideJazzGuitar
+27=Cool! Slapback
+28=Cool! VintageMute
+29=Cool! HalfDrive
+30=Cool! GuitarHero
+32=BallroomBass
+34=Cool! VintagePickMute
+38=MoonBass
+39=LoBass
+44=Live! SeattleTremolo
+46=MellowHarp
+49=SymphonicUnison
+50=MediumTunePad
+51=PremiumPad
+54=80sBreathyVoice
+57=Sweet! BrightTrombone
+58=Tuba
+59=Sweet! MutedCornet
+60=Live! OrchHorns
+61=Live! PopHorns
+62=80sSynthBrassThin
+65=Sweet! PopAltoSax
+66=Sweet! Saxophone
+67=BaritoneSax1
+68=Sweet! OrchestralOboe
+70=Sweet! OrchestralBassoon
+71=Live! OrchestralClarinet
+73=Sweet! OrchestralFlute
+80=SubLead
+81=MouthLead
+84=BleepLead
+87=TalkModLead
+88=AmbientPad
+89=VP Soft
+90=HPF Dance
+91=BreathPad
+92=WhisperGallery
+93=EarlyDigital
+94=MorningDew
+95=Trance
+97=SazFeeze
+99=NylonPad
+100=HeavenBell
+101=PercPad
+103=PitchFall
+104=Sitar1
+105=Banjo1
+106=SynthSticks
+122=Live! SeaShore
+125=Live! Helicopter
+126=Live! Applause1
+127=Live! GunShot
+
+[PSR-SX900 MSB104 Bank 133313]
+0=Live! MIDIGrandSyn
+2=Live! MIDIGrandPad
+3=S.Art! CocktailPiano
+5=Cool! DX Midnight
+11=Sweet! Vibraphone
+15=Zither1
+17=Cool! WhiterBarsSlow
+18=Cool! AllBarsOutSlow
+19=Live! GrandJeu
+21=AccordionClarinet
+26=LoungeGuitar
+27=Cool! 70sSolidGuitar
+30=Cool! HeavyRock
+32=AcousticBass2
+33=Cool! VintageRound
+34=VintagePick
+38=KickBass
+39=DarkBass
+44=Live! SeattleStrings sfz
+46=OrchestralHarp
+49=TheatreOrchestra
+50=SoftEnsemble
+51=80sPad
+54=80sDreamyVox
+60=Live! SymphonyHorns
+61=Live! WarmSwingHorns
+62=80sSynthBrassProf
+68=Clarinet&Oboe
+70=OrchWoodwind
+71=Clarinet&Flutes
+73=FluteSection
+81=PWM Lead
+84=DetunedVintage
+87=Xtune
+88=NobleMan
+89=VaporPad
+90=TranceSeq3
+94=Aerosphere
+95=SpaceRider
+97=EasternAir
+99=FlyingHarmonics
+101=CrossPhase
+104=Nomad
+122=TrancyNoise
+126=Live! Applause2
+
+[PSR-SX900 MSB104 Bank 13314]
+0=Live! PianoOrchestra
+2=S.Art! MIDIGrand
+3=S.Art! OctavePiano1
+5=Cool! DX BalladBells
+18=Cool! AllBarsPhase
+19=Live! FondsEtAnches
+21=FullRegister
+27=Cool! WarmSolid
+30=Cool! StereoRockGuitar
+32=SoftAcousticBass
+33=Cool! VintageFlat
+34=Cool! VintageDyno
+38=ClubBass
+39=FatPulse
+46=Hackbrett1
+50=ButterStrings
+51=LightPad
+60=Live! SymphonyHornsOct
+61=Live! MuteSwingHorns
+62=SlowPWM Brass
+68=DoubleReeds
+71=GermanClarinet
+73=Flutes&Oboes
+81=FlangeFilter
+84=LektroCodes
+86=80sUnisonFifth
+87=DigitalSequence
+88=PearlsPad
+89=DarkFatSaw
+90=ResonantClavi
+94=WarpedWaves
+95=HotSwell
+97=Tric-Trac
+99=NylonHeaven
+101=SixthSense
+
+[PSR-SX900 MSB104 Bank 13315]
+0=Live! AmbientPiano
+2=S.Art! MIDIGrandPad
+3=S.Art! OctavePiano2
+5=Cool! DX Dream
+18=Cool! FullRocker2
+19=Live! OrganoPleno
+21=CajunAccordion
+27=Cool! CleanSolid
+33=Cool! VintageMute
+38=DeepPoint
+39=TightBass
+50=BrightPopPad
+51=AnaDayz
+56=Live! OrchTrumpets
+57=Live! OrchTrombones
+60=Live! StoppedOrchHorns
+61=Live! PopHornsAccent
+62=ClubLead
+80=WazzoSaw
+81=VinalogSaw
+87=AnalogSeq
+88=GalaxyPad
+89=DarkLight
+90=BrightPadClassic
+91=HeavenPad
+94=SoundPictures
+95=DouxFlange
+99=PianoSweeper
+101=MidnightSpecial
+
+[PSR-SX900 MSB104 Bank 13316]
+0=Live! RockPiano
+19=Diapason
+27=CoolWahGuitar
+38=Competitor
+39=SquareBass
+49=Live! SeattleStrings f
+50=OctaveStrings
+51=FaaatComp
+52=Live! BeeVibrato
+56=Live! OrchTrumpetsFast
+57=Live! OrchTrombonesFast
+60=Live! OrchHornsFast
+61=Live! PopHornsShake
+62=ResonanceComp
+80=PWM Wild
+81=Attack
+84=ShortUnison
+87=TranceSeq1
+88=NightMotion
+89=NewAtmosphere
+90=BrightPadTrance
+91=HybridLines
+94=Spectralis
+95=DeepMotion
+99=80sHarpvox
+101=WaterGames
+
+[PSR-SX900 MSB104 Bank 13317]
+0=Live! PopGrand
+17=TibiaChorus
+19=Claribel&Flute
+21=FullRegisterBass
+27=Cool! SlideFinger
+38=1o1Sub
+39=SubCutBass
+49=Live! SeattleStrings mf
+51=DanceChords
+61=Live! PopHornsCresc
+62=BrassyLead
+80=SoftSquare
+81=TrancePerc
+84=BriteDecay
+87=TranceSeq2
+88=Bellsphere
+89=RainyDay
+90=BrightFatSaw
+94=SpectrumPad
+101=MyGeneration
+
+[PSR-SX900 MSB104 Bank 13318]
+17=Tibia8'
+19=LieblichGedackt
+21=CajunAccBass
+27=Cool! SlideWarm
+38=LittleBassSynth
+39=MiniSub
+48=Live! SeattleSpiccato
+49=Live! SeattleStrings p
+51=ChillinChords
+61=Live! BalladBrass
+62=FastPWM Brass
+81=PWM Percussion
+84=TekkTune
+87=PercSeqFS
+88=BalladComp
+89=Atmo5th
+94=MysticPad
+95=Live! PadVoices
+101=AllOrNothing
+
+[PSR-SX900 MSB104 Bank 13319]
+4=Cool! SuitcaseSoft
+17=VoxHumana8'
+19=SoftReeds
+27=Cool! SlidePick
+38=TeknoBass
+39=BalladBass
+51=FatSawHook
+52=Live! GospelHey
+81=PunchLead
+84=StaccMelody
+87=PercSeqFM1
+88=BrightPadBell
+101=Digisweeper
+
+[PSR-SX900 MSB104 Bank 13320]
+0=S.Art! MIDIGrandSyn
+4=Cool! VintageEP
+16=Tibia16'&4'
+27=Cool! SlidePickAmp
+38=PercPunch
+52=Live! BoysChoirAah
+53=Live! BoysChoirOoh
+61=Live! SymphonyBrass
+81=DetunedSawOctave
+84=PitchyPatch
+87=PercSeqFM2
+88=StackBell
+101=MetallicRain
+
+[PSR-SX900 MSB104 Bank 13321]
+0=S.Art! AmbientPiano
+4=Cool! SuitcaseBallad
+16=Tibia8'&4'
+25=Live! SpanishGuitarSlide
+38=TranceBass
+50=UnisonStrings
+51=NextGeneration
+52=Live! Haa
+61=Live! OrchTpts&Tbns1
+62=80sSynthBrassStab
+81=DancyHook
+84=SoftChordSynth
+87=PercSeqHipa
+88=NiceBell
+101=TheFog
+
+[PSR-SX900 MSB104 Bank 13322]
+0=S.Art! RockPiano
+4=Cool! SuitcasePhaser
+5=Cool! TX Bright
+16=Vox&Tibia
+25=Live! SteelAcoustic
+38=DynoAcidBass
+50=MedDetunedStrings
+52=Live! Wah
+61=Live! OrchTpts&Tbns2
+62=80sSynthBrassTack
+81=ChorusSawLead
+84=ChordBuddy
+88=NewHeaven
+89=80sSoftPad
+90=NastySaw
+101=Randomizer
+
+[PSR-SX900 MSB104 Bank 13323]
+0=S.Art! PopGrand
+4=Cool! SuitcaseDrive
+5=Cool! TX Mellow
+25=Live! ChickenPickGuitar
+38=FatSineResonance
+61=Live! OrchHornsPad
+81=PercSeqSaw
+84=TuneComp
+88=FantasyBells
+89=80sWarmVCF Pad
+90=GrowlingHook
+101=Atlantis
+
+[PSR-SX900 MSB104 Bank 13324]
+0=S.Art! Piano&Orchestra
+4=Cool! SuitcaseTremolo
+5=Cool! TX Warm
+25=Live! SteelGuitarTwin1
+38=80sDynFilterBass
+52=Live! Baa
+53=Live! GospelHmm
+61=Live! OrchBrassOctave
+81=SimpleComp
+84=ArpeggioLine
+88=OrganBells
+90=Yipping
+
+[PSR-SX900 MSB104 Bank 13325]
+0=S.Art! UprightPiano
+1=S.Art! PopUpright
+3=S.Art! HonkyTonkUpright
+4=Cool! SuitcaseJazz
+25=Live! SteelGuitarTwin2
+38=80sFM MetalBass
+51=80sMiamiStrings
+52=Live! Daa
+53=Live! GospelWow
+61=Live! OrchHorns&Tbns
+81=Chordmaster
+88=ItopiaBells
+90=UnstableLead
+95=80sFifthSlow
+
+[PSR-SX900 MSB104 Bank 13326]
+0=S.Art! 70sBalladUpright
+1=S.Art! SaloonUpright
+3=S.Art! UprightOneOctave
+4=Cool! SuitcaseWarmth
+38=80sEX PulseBass
+50=80sDreamStrings
+61=Live! BrassBand
+81=TechGlide
+84=80sUnisonLead
+88=SpectrumTheme
+90=Persecutor
+95=80sSynthProSwell
+
+[PSR-SX900 MSB104 Bank 13327]
+0=S.Art! ChilloutUpright
+3=S.Art! UprightTwoOctaves
+4=Cool! VintageEP Drive
+38=80sPulseBass
+50=80sPopStrings
+52=Live! AccompAah
+53=Live! AccompOoh
+61=Live! SymphonyHornsFast
+81=FusionLead
+84=80sFM Polystar
+88=BreathBells
+90=LoonyLead
+95=80sSynthSlowSwell
+
+[PSR-SX900 MSB104 Bank 13328]
+4=Cool! SuitcaseHard
+18=TheatrePedal1
+50=80sBalladPad
+53=Live! Doo
+80=80sLFO PulseLead
+81=SoftSaw
+88=SkyBells
+90=HardTeeth
+
+[PSR-SX900 MSB104 Bank 13329]
+18=TheatrePedal2
+38=80sSynthPopBass
+53=Live! Ooh
+80=80sSmallPulsePoly
+81=VelocityMaster
+88=AiryHarp
+90=Cyclist
+
+[PSR-SX900 MSB104 Bank 13330]
+38=80sSeqBass
+53=Live! Yoo
+80=80sBitSquareArp
+87=DeepSub
+88=Sinesphere
+90=TenPercent
+
+[PSR-SX900 MSB104 Bank 13331]
+18=HomeOrganTrombone
+38=80sArnoldBass
+87=ModernPop
+88=Pianosphere
+90=Crowds
+
+[PSR-SX900 MSB104 Bank 13332]
+18=HomeOrganClarinet
+38=80sRetroPulseBass
+81=1984Synth
+87=MultiSawBass
+88=AmbientTheme
+90=Gemini
+
+[PSR-SX900 MSB104 Bank 13333]
+18=HomeOrganCello
+87=BriteDubBass
+88=ReflectingZone
+90=HandsUp!
+
+[PSR-SX900 MSB104 Bank 13334]
+18=HomeOrganHorn
+38=80sUnisonBass
+87=Pulse&Saw
+88=HybridPad
+90=StraightRaver
+
+[PSR-SX900 MSB104 Bank 13335]
+18=HomeOrganCornet
+39=ClassicBassEnvelope
+87=TwentyFive
+90=TranceArtist
+
+[PSR-SX900 MSB104 Bank 13336]
+18=HomeOrganViolin
+38=BerlinDroneBass
+39=ClassicBassSustain
+87=PunchySquare
+88=SoftStepper
+90=PunchyChordz
+
+[PSR-SX900 MSB104 Bank 13337]
+18=HomeOrganKinura
+38=EDM ClassicOctBass
+39=EDM DanceBass2
+87=Softwood
+88=PWM Picks
+90=TrancyChordz
+
+[PSR-SX900 MSB104 Bank 13338]
+18=TheatreSeaside
+38=EDM DanceBass1
+39=EDM FatSquareBass
+87=PunchyDX
+88=SquareStepz
+
+[PSR-SX900 MSB104 Bank 13339]
+17=ClickOrganBass
+38=EDM DXBass
+39=EDM GarageBass
+87=DarkSeqBass
+88=DynaSequence
+
+[PSR-SX900 MSB104 Bank 13340]
+17=TheatreChrysoglott
+18=TheatreTibia&Vox
+38=EDM ElectroHardBass
+39=EDM HeavyDubBass
+87=PumpingSaw
+88=TriPicks
+
+[PSR-SX900 MSB104 Bank 13341]
+17=TheatreGlockenspiel
+18=TheatreOpenTibias
+38=EDM TransistorBass
+39=OrganHouseBass
+87=PumpingSquare
+88=Cracky
+
+[PSR-SX900 MSB104 Bank 13342]
+17=TheatreXylophone
+18=TheatreGambaCeleste
+38=EDM PitchyPulseBass
+39=PluckHouseBass
+
+[PSR-SX900 MSB104 Bank 13343]
+17=TheatreOrganChime
+18=TheatreOrganMix1
+38=MonolanBass
+39=RegistrationBass
+
+[PSR-SX900 MSB104 Bank 13344]
+16=Cool! 60sComboOrgan1
+17=TheatreWoodenHarp
+18=TheatreOrganMix2
+38=MonolanCombiSolid
+39=BasicBass
+
+[PSR-SX900 MSB104 Bank 13345]
+16=Cool! 60sComboOrgan2
+17=EuroAccomp1
+18=TheatreOrganMix3
+38=Q HouseBass
+39=SawClickBass
+
+[PSR-SX900 MSB104 Bank 13346]
+16=Cool! 60sComboOrgan3
+17=EuroAccomp2
+18=TheatreFlute Acmp
+38=VM Sawbass
+39=SolidBass
+
+[PSR-SX900 MSB104 Bank 13347]
+16=Cool! 60sComboOrgan4
+17=EuroAccomp3
+18=TheatreStrings Acmp
+
+[PSR-SX900 MSB104 Bank 13348]
+18=TheatreChrys Acmp
+
+[PSR-SX900 MSB104 Bank 13349]
+18=HomeAccomp1
+87=80sResoPercSynth
+88=80sGlassyHook
+
+[PSR-SX900 MSB104 Bank 13350]
+18=HomeAccomp2
+87=80sPunchySynth
+
+[PSR-SX900 MSB104 Bank 13351]
+87=80sBellSynthStick
+
+[PSR-SX900 MSB104 Bank 13352]
+81=80sPowerEnvelope
+87=80sPercSynth&Bell
+
+[PSR-SX900 MSB104 Bank 13353]
+81=80sArnoldLead
+87=80sStaccatoComp
+
+[PSR-SX900 MSB104 Bank 13354]
+81=80sBigLines
+87=80sInterlude
+
+[PSR-SX900 MSB104 Bank 13355]
+81=80sSmartStack
+87=80s5thDigiSequence
+
+[PSR-SX900 MSB104 Bank 13356]
+81=80sStackBrass
+87=80sGlassyComp
+
+[PSR-SX900 MSB104 Bank 13357]
+81=80sPitchySaw
+87=80sWoodenArp
+
+[PSR-SX900 MSB104 Bank 13358]
+81=80sSmallPulse
+
+[PSR-SX900 MSB104 Bank 13359]
+81=80sCheapMod
+87=80sSharpPerc
+
+[PSR-SX900 MSB104 Bank 13360]
+81=80sTakeMeOut
+87=80sShortStepper
+
+[PSR-SX900 MSB104 Bank 13361]
+81=80sPolyPop
+87=80sSyncMove
+
+[PSR-SX900 MSB104 Bank 13362]
+81=80sUnisonFat
+87=80sSawAttackArp
+
+[PSR-SX900 MSB104 Bank 13363]
+81=80sUnisonPoly
+
+
+; -----------------------------
+;GM2 Voices
+; -----------------------------
+[PSR-SX900 GM2 Drums]
+0=GM2 Standard Kit
+8=GM2 Room Kit
+16=GM2 Power Kit
+24=GM2 Electronic Kit
+25=GM2 Analog Kit
+32=GM2 Jazz Kit
+40=GM2 Brush Kit
+48=GM2 Orchestra Kit
+56=GM2 SFX Kit
+
+[PSR-SX900 GM2 Bank 15488]
+0=Grand Piano
+1=Bright Piano
+2=Elec Grand Piano
+3=Honky Tonk
+4=Electric Piano 1
+5=Electric Piano 2
+6=Harpsichord
+7=Clavi.
+8=Celesta
+9=Glockenspiel
+10=Music Box
+11=Vibraphone
+12=Marimba
+13=Xylophone
+14=Tubular Bells
+15=Dulcimer
+16=Drawbar Organ
+17=Percussive Organ 1
+18=Rock Organ
+19=Church Organ
+20=Reed Organ
+21=Accordion
+22=Harmonica
+23=Tango Accord
+24=Nylon Guitar
+25=Steel Guitar
+26=Jazz Guitar
+27=Clean Guitar
+28=Muted Guitar
+29=Overdriven
+30=Distortion
+31=Gtr Harmonics
+32=Acoustic Bass
+33=Finger Bass
+34=Pick Bass
+35=Fretless Bass
+36=Slap Bass1
+37=Slap Bass2
+38=Synth Bass1
+39=Synth Bass2
+40=Violin
+41=Viola
+42=Cello
+43=Contrabass
+44=Tremolo Strings
+45=Pizzicato Strings
+46=Orch. Harp
+47=Timpani
+48=Strings1
+49=Strings2
+50=Synth Strings1
+51=Synth Strings2
+52=Choir Aahs
+53=Voice Oohs
+54=Synth Voice
+55=Orchestra Hit
+56=Trumpet
+57=Trombone
+58=Tuba
+59=Muted Trumpet
+60=French Horn
+61=Brass Section
+62=Synth Brass1
+63=Synth Brass2
+64=Soprano Sax
+65=Alto Sax
+66=Tenor Sax
+67=Baritone Sax
+68=Oboe
+69=English Horn
+70=Bassoon
+71=Clarinet
+72=Piccolo
+73=Flute
+74=Recorder
+75=PanFlute
+76=Blown Bottle
+77=Shakuhachi
+78=Whistle
+79=Ocarina
+80=Square Lead
+81=Sawtooth Lead
+82=Calliope Lead
+83=Chiff Lead
+84=Charang Lead
+85=Voice Lead
+86=Fifths Lead
+87=Bass & Lead
+88=NewAge Pad
+89=Warm Pad
+90=PolySynth Pad
+91=Choir Pad
+92=Bowed Pad
+93=Metallic Pad
+94=Halo Pad
+95=Sweep Pad
+96=Rain
+97=Sound Track
+98=Crystal
+99=Atmosphere
+100=Brightness
+101=Goblins
+102=Echoes
+103=Sci-Fi
+104=Sitar
+105=Banjo
+106=Shamisen
+107=Koto
+108=Kalimba
+109=Bagpipe
+110=Fiddle
+111=Shanai
+112=Tinkle Bell
+113=Agogo
+114=Steel Drums
+115=Wood block
+116=Taiko Drum
+117=Melodic Tom
+118=Synth Drum
+119=Reverse  Cymbal
+120=Gtr Fret Noise
+121=Breath Noise
+122=Seashore
+123=BirdTweet
+124=Telephone Ring
+125=Helicopter
+126=Applause
+127=Gunshot
+
+
+[PSR-SX900 GM2 Bank 15489]
+0=Grand Piano Wide
+1=Bright Piano Wide
+2=Elec Grand Piano Wide
+3=Honky Tonk Wide
+4=Detuned EP1
+5=Detuned EP2
+6=Harpsi Octave Mix
+7=Pulse Clavi
+11=Vibraphone Wide
+12=Marimba Wide
+14=Church Bell
+16=Detuned Drawbar Organ
+17=Detuned Percussive Organ
+19=Church Organ Octave
+20=Puff Organ
+21=Accordion 2
+24=Ukulele
+25=12-StringsGuitar
+26=Pedal Steel Gtr
+27=Detuned Clean Gt
+28=Funky Guitar
+29=Guitar Pinch
+30=Feedback Guitar
+31=Guitar Feedback
+33=Finger Slap Bass
+38=Warm Synth Bass
+39=Attack Bass
+40=Slow Attack Violin
+46=Yang Chin
+48=Strings & Brass
+50=Synth Strings 3
+52=Choir Aahs 2
+53=Humming
+54=Analog Voice
+55=Bass Hit Plus
+56=Dark Trumpet Soft
+57=Trombone 2
+59=Mute Trumpet 2
+60=French Horn 2
+61=Brass Section 2
+62=Synth Brass 3
+63=Synth Brass 4
+80=Square Lead 2
+81=Sawtooth Lead 2
+84=Wire Lead
+87=Soft Whirl
+89=Sine Pad
+91=Itopia Pad
+98=Synth Mallet
+102=Echo Bell
+104=Sitar 2
+107=Taisho Koto
+115=Castanets
+116=Concert BassDrum
+117=Melodic Tom 2
+118=Rhythm Box Tom
+120=Gtr.CuttingNoise
+121=Flute Key Click
+122=Rain
+123=Dog
+124=Telephone Ring 2
+125=Car Engine
+126=Laughing
+127=Machine Gun
+
+
+[PSR-SX900 GM2 Bank 15490]
+0=Grand Piano Dark
+4=EP1 Velocity Mix
+5=EP2 Velocity Mix
+6=Harpsicord Wide
+14=Carillon
+16=Italian 60'sOrgan
+17=Percussive Organ 2
+19=Detuned Church Organ
+24=NylonGtr.ket-off
+25=Mandolin
+27=Mid Tone Guitar
+28=Muted Velo SW Guitar
+30=Dist.Rhythm Gtr
+38=Reso Synth Bass
+39=Rubber Bass
+48=60's Strings
+55=6th Hit
+57=Bright Trombone
+62=Analog Brass 1
+63=Analog Brass 2
+80=Sine Lead
+81=Sawtooth + Pulse
+102=Echo Pan
+118=Electric Drum
+120=Bass String Slap
+122=Thunder
+123=Horse Gallop
+124=Door Creaking
+125=Car Stop
+126=Screaming
+127=Lasergun
+
+
+[PSR-SX900 GM2 Bank 15491]
+4=60's E.Piano
+5=E Legend
+6=Harpsi Key Off
+16=Drawbar Organ 2
+24=Nylon Guitar 2
+25=Steel Gtr. Body
+28=Jazz Man
+38=Clavi Bass
+39=Attack Pulse
+55=Euro Hit
+62=Jump Brass
+81=Double Sawtooth
+122=Wind
+123=Bird Tweet 2
+124=Door
+125=Car Pass
+126=Punch
+127=Explosion
+
+
+[PSR-SX900 GM2 Bank 15492]
+5=EP Phase
+38=Hammer
+81=Sequenced Analog
+122=Stream
+124=Scratch
+125=Car Crash
+126=Heart Beat
+
+
+[PSR-SX900 GM2 Bank 15493]
+122=Bubble
+124=Wind Chime
+125=Siren
+126=Footsteps
+
+
+[PSR-SX900 GM2 Bank 15494]
+125=Train
+
+[PSR-SX900 GM2 Bank 15495]
+125=Jetplane
+
+[PSR-SX900 GM2 Bank 15496]
+125=Starship
+
+[PSR-SX900 GM2 Bank 15497]
+125=Burst Noise
+
+;----------------------------------------------------------------------------------
+; GM/XG Voices
+; Bank 0 is also the same as the General Midi GM definition.
+; Banks 1,...,101 are specific to the XG definitions
+;----------------------------------------------------------------------------------
+
+[GM/XG Bank 0]
+0=Aco. Grand Piano
+1=Bright Aco. Piano
+2=Electric Grand Piano
+3=Honkytonk Piano
+4=Electric Piano 1
+5=Electric Piano 2
+6=Harpsichord
+7=Clavi
+8=Celesta
+9=Glockenspiel
+10=Music Box
+11=Vibraphone
+12=Marimba
+13=Xylophone
+14=Tubular Bells
+15=Dulcimer
+16=Drawbar Organ
+17=Percussive Organ
+18=Rock Organ
+19=Church Organ
+20=Reed Organ
+21=Accordion
+22=Hamonica
+23=Tango Accordion
+24=Nylon Guitar
+25=Steel Guitar
+26=Jazz Guitar
+27=Clean Guitar
+28=Muted Guitar
+29=Overdriven Guitar
+30=Distortion Guitar
+31=Guitar Harmonics
+32=Acoustic Bass
+33=Finger Bass
+34=Pick Bass
+35=Fretless Bass
+36=Slap Bass 1
+37=Slap Bass 2
+38=Synth Bass 1
+39=Synth Bass 2
+40=Violin
+41=Viola
+42=Cello
+43=Contrabass
+44=Tremolo Strings
+45=Pizzicato Strings
+46=Orchestral Harp
+47=Timpani
+48=String Ensemble 1
+49=String Ensemble 2
+50=Synth Strings 1
+51=Synth Strings 2
+52=Choir Aahs 
+53=Voice Oohs
+54=Synth Voice
+55=Orchestra Hit
+56=Trumpet 
+57=Trombone
+58=Tuba
+59=Muted Trumpet
+60=French Horn
+61=Brass Section
+62=Synth Brass 1
+63=Synth Brass 2
+64=Soprano Sax
+65=Alto Sax
+66=Tenor Sax
+67=Baritone Sax
+68=Oboe
+69=English Horn
+70=Bassoon
+71=Clarinet
+72=Piccolo
+73=Flute
+74=Recorder
+75=Pan Flute
+76=Blown Bottle
+77=Shakuhachi
+78=Whistle
+79=Ocarina
+80=Square Lead
+81=Sawtooth Lead
+82=Calliope Lead
+83=Chiff Lead
+84=Charang Lead
+85=Voice Lead
+86=Fifths Lead
+87=Bass & Lead
+88=New Age Pad
+89=Warm Pad
+90=Poly Synth Pad
+91=Choir Pad
+92=Bowed Pad
+93=Metallic Pad
+94=Halo Pad
+95=Sweep Pad
+96=Rain
+97=Sound Track
+98=Crystal
+99=Atmosphere
+100=Brightness
+101=Goblins
+102=Echoes
+103=Sci-Fi
+104=Sitar
+105=Banjo
+106=Shamisen
+107=Koto
+108=Kalimba
+109=Bagpipe
+110=Fiddle
+111=Shanai
+112=Tinkle Bell
+113=Agogo
+114=Steel Drums
+115=Woodblock
+116=Taiko Drum
+117=Melodic Tom
+118=Synth Drum
+119=Reverse Cymbal
+120=Fret Noise
+121=Breath Noise
+122=Seashore
+123=Bird Tweet
+124=Telephone Ring
+125=Helicopter
+126=Applause
+127=Gunshot
+
+[GM/XG Bank 1]
+0=Grand Piano KSP
+1=Bright Piano KSP
+2=Electric Grand Piano KSP
+3=Honky-tonk Piano KSP
+4=Electric Piano 1 KSP
+5=Electric Piano 2 KSP
+6=Harpsichord KSP
+7=Clavi KSP
+11=Vibraphone KSP
+12=Marimba KSP
+
+[GM/XG Bank 3]
+48=Stereo Strings
+49=Stereo Slow Strings
+52=Stereo Choir
+
+[GM/XG Bank 6]
+39=Mellow Synth Bass
+61=French Horn Solo
+80=Square Lead 2
+81=Sawtooth Lead 2
+
+[GM/XG Bank 8]
+40=Slow Violin
+44=Slow Tremolo Strings
+48=Slow Strings
+49=Legato Strings
+80=LM Square
+81=Thick Sawtooth
+102=Echoes 2
+
+[GM/XG Bank 12]
+39=Sequenced Bass
+62=Quack Brass
+98=Synth Drum Comp
+
+[GM/XG Bank 14]
+98=Popcorn
+102=Echo Pan
+
+[GM/XG Bank 16]
+24=Nylon Guitar 2
+25=Steel Guitar 2
+52=Choir Aahs 2
+56=Trumpet 2
+58=Tuba 2
+87=Big & Low
+89=Thick Pad
+
+[GM/XG Bank 17]
+56=Bright Trumpet
+89=Soft Pad
+
+[GM/XG Bank 18]
+0=Mellow Grand Piano
+4=Mellow Electric Piano 1
+26=Mellow Guitar
+33=Finger Dark
+38=Synth Bass 1 Dark
+39=Click Synth Bass
+57=Trombone 2
+63=Soft Brass
+80=Hollow
+81=Dynamic Sawtooth
+89=Sine Pad
+98=Tiny Bells
+99=Warm Atmosphere
+
+[GM/XG Bank 19]
+39=Synth Bass 2 Dark
+80=Shroud
+81=Digital Sawtooth
+99=Hollow Release
+
+[GM/XG Bank 20]
+38=Fast Resonant Bass
+62=Resonant Synth Brass
+81=Big Lead
+95=Shwimmer
+
+[GM/XG Bank 24]
+17=70's Percussive Organ 1
+38=Acid Bass
+48=Arco Strings
+62=Poly Brass
+81=Heavy Synth
+85=Synth Aahs
+
+[GM/XG Bank 25]
+6=Harpsichord 2
+24=Nylon Guitar 3
+81=Waspy Synth
+
+[GM/XG Bank 27]
+7=Clavi Wah
+33=Flange Bass
+36=Resonant Slap
+50=Resonant Strings
+62=Synth Brass 3
+95=Converge
+97=Prologue
+
+[GM/XG Bank 28]
+34=Muted Pick Bass
+105=Muted Banjo
+
+[GM/XG Bank 32]
+2=Detuned CP80
+4=Chorus Electric Piano 1
+5=Chorus Electric Piano 2
+16=Detuned Drawbar Organ
+17=Detuned Percussive Org
+19=Church Organ 3
+21=Accord Italian
+22=Harmonica 2
+26=Jazz Amp
+27=Chorus Guitar
+35=Fretless Bass 2
+36=Punch Thumb Bass
+39=Smooth Synth Bass
+52=Mellow Choir
+56=Warm Trumpet
+60=French Horn 2
+62=Jump Brass
+104=Detuned Sitar
+
+[GM/XG Bank 33]
+5=DX Electric Piano Hard
+16=60's Drawbar Organ 1
+17=Light Organ
+35=Fretless Bass 3
+
+[GM/XG Bank 34]
+5=DX Legend
+16=60's Drawbar Organ 2
+35=Fretless Bass 4
+
+[GM/XG Bank 35]
+6=Harpsichord 3
+15=Dulcimer 2
+16=70's Drawbar Organ 1
+19=Church Organ 2
+25=12-string Guitar
+38=Clavi Bass
+48=60's Strings
+55=Orchestra Hit 2
+61=Trumpet & Trombone Section
+86=Big Five
+98=Round Glockenspiel
+104=Sitar 2
+
+[GM/XG Bank 36]
+16=Drawbar Organ 2
+
+[GM/XG Bank 37]
+16=60's Drawbar Organ 3
+17=Percussive Organ 2
+60=Horn Orchestra
+
+[GM/XG Bank 38]
+16=Even Bar
+
+[GM/XG Bank 40]
+0=Piano Strings
+2=Layered Electric Grand 1
+4=Hard Electric Piano
+5=DX Phase Electric Piano
+16="16+2""2/3"
+19=Notre Dame
+20=Puff Organ
+25=Nylon & Steel Guitar
+28=Funk Guitar 1
+30=Feedback Guitar
+32=Jazz Rhythm
+33=Bass & Distorted E.Gtr
+38=Techno Synth Bass
+39=Modular Synth Bass
+44=Suspense Strings
+46=Yang Chin
+48=Orchestra
+49=Warm Strings
+52=Choir Strings
+54=Synth Voice 2
+61=Brass Section 2
+63=Synth Brass 4
+65=Sax Section
+66=Breathy Tenor Sax
+81=Pulse Sawtooth
+98=Glockenspiel Chimes
+99=Nylon Electric Piano
+
+[GM/XG Bank 41]
+0=Dream
+2=Layered Electric Grand 2
+5=DX + Analog Electric Piano
+25=SteelGtr with BodySound
+28=Muted Steel Guitar
+30=Feedback Guitar 2
+39=DX Bass
+48=Orchestra 2
+49=Kingdom
+54=Choral
+61=High Brass
+63=Choir Brass
+66=Soft Tenor Sax
+81=Dr. Lead
+98=Clear Bells
+
+[GM/XG Bank 42]
+5=DX Koto Electric Piano
+48=Tremolo Orchestra
+61=Mellow Brass
+98=Chorus Bells
+
+[GM/XG Bank 43]
+24=Velo Guitar Harmonics
+28=Funk Guitar 2
+29=Guitar Pinch
+33=Finger Slap Bass
+37=Velocity Switch Slap
+65=Hyper Alto Sax
+
+[GM/XG Bank 45]
+4=Velo Crossfade E.Pno 1
+5=Velo Crossfade E.Pno 2
+11=Hard Vibraphone
+28=Jazz Man
+32=Velo Crsfade UprightBass
+33=Finger Bass 2
+48=Velocity Strings
+62=Analog Velocity Brass 1
+63=Analog Velocity Brass 2
+81=Velocity Lead
+96=Clavi Pad
+
+[GM/XG Bank 64]
+4=60's Electric Piano 1
+7=Pulse Clavi
+10=Music Box 2
+12=Sine Marimba
+16=Organ Bass
+18=Rotary Organ
+19=Organ Flute
+23=Tango Accordion 2
+38=Orbiter
+39=X Wire Bass
+49=70's Strings
+50=Synth Strings 4
+54=Analog Voice
+55=Impact
+62=Analog Brass 1
+63=Analog Brass 2
+66=Tenor Sax 2
+80=Mellow
+83=Rubby
+84=Distorted Lead
+85=Vox Lead
+87=Fat & Perky
+88=Fantasy
+89=Horn Pad
+90=Poly Pad 80
+91=Heaven
+92=Glacier
+93=Tine Pad
+95=Polar Pad
+96=Harmo Rain
+97=Ancestral
+98=Synth Mallet
+99=Nylon Harp
+100=Fantasy Bells
+101=Goblins Synth
+102=Echo Bells
+103=Starz
+111=Shanai 2
+117=Melodic Tom 2
+118=Analog Tom
+
+[GM/XG Bank 65]
+7=Pierce Clavi
+16=70's Drawbar Organ 2
+18=Slow Rotary
+19=Tremolo Organ Flute
+31=Guitar Feedback
+33=Modulated Bass
+38=Square Bass
+49=String Ensemble 3
+50=Synth Strings 5
+80=Solo Sine
+82=Pure Lead
+84=Wire Lead
+87=Soft Whirl
+89=Rotary Strings
+90=Click Pad
+92=Glass Pad
+93=Pan Pad
+96=African Wind
+98=Soft Crystal
+99=Harp Vox
+101=Creeper
+102=Big Pan
+117=Real Tom
+118=Electronic Percussion
+
+[GM/XG Bank 66]
+16=Cheezy Organ
+18=Fast Rotary
+31=Guitar Harmonics 2
+38=Rubber Bass
+80=Sine Lead
+90=Analog Pad
+91=Itopia
+95=Celestial
+96=Carib
+98=Loud Glockenspiel
+99=Atmosphere Pad
+101=Ring Pad
+102=Synth Piano
+117=Rock Tom
+
+[GM/XG Bank 67]
+16=Drawbar Organ 3
+90=Square Pad
+91=CC Pad
+98=Christmas Bells
+99=Planet
+101=Ritual
+102=Creation
+
+[GM/XG Bank 68]
+98=Vibraphone Bells
+101=To Heaven
+102=Star Dust
+
+[GM/XG Bank 69]
+98=Digital Bells
+102=Resonant & Panning
+
+[GM/XG Bank 70]
+98=Air Bells
+101=Night
+
+[GM/XG Bank 71]
+98=Bell Harp
+101=Glisten
+
+[GM/XG Bank 72]
+98=Gamelimba
+
+[GM/XG Bank 96]
+14=Church Bells
+15=Cimbalom
+24=Ukulele
+25=Mandolin
+35=Synth Fretless
+38=Hammer
+81=Sequenced Analog
+100=Smokey
+101=Bell Choir
+104=Tambra
+105=Rabab
+107=Taisho-Koto
+111=Pungi
+112=Bonang
+115=Castanets
+116=Gran Cassa
+
+[GM/XG Bank 97]
+12=Balimba
+14=Carillon
+15=Santur
+35=Smooth Fretless
+104=Tamboura
+105=Gopichant
+107=Kanoon
+111=Hichiriki
+112=Altair
+114=Glass Percussion
+
+[GM/XG Bank 98]
+12=Log Drums
+105=Oud
+112=Gamelan Gongs
+114=Thai Bells
+
+[GM/XG Bank 99]
+112=Stereo Gamelan Gongs
+
+[GM/XG Bank 100]
+112=Rama Cymbal
+
+[GM/XG Bank 101]
+112=Asian Bells
+
+[GM/XG Bank 8192]
+0=Cutting Noise
+1=Cutting Noise 2
+3=String Slap
+16=FluteKeyClick
+32=Shower
+33=Thunder
+34=Wind
+35=Stream
+36=Bubble
+37=Feed
+48=Dog
+49=Horse
+50=Bird Tweet 2
+54=Ghost
+55=Maou
+64=Phone call
+65=Door Creak
+66=Door Slam
+67=Scratch cut
+68=Scratch Split
+69=Wind Chime
+70=Telephone Ring 2
+80=Car Engine Ignotion
+81=Car Tires Squeal
+82=Car Passing
+83=Car Crash
+84=Siren
+85=Train
+86=Jet Plane
+87=Starship
+88=Burst
+89=Roller Coaster
+90=Submarine
+96=Laugh
+97=Scream
+98=Punch
+99=Heart beat
+100=Foot Stepss
+112=Machine Gun
+113=Laser Gun
+114=Explosion
+115=Firework
+
+
+;----------------------------------------------------------------------------------
+; Panel Voices
+;----------------------------------------------------------------------------------
+
+[PSR-SX900 Bank 104]
+17=VintageAccomp5
+81=RS Sawlead1
+101=LFO Pad
+
+[PSR-SX900 Bank 105]
+17=VintageAccomp4
+61=Live! Sforzando
+81=RS Sync1
+101=LFO Sync5
+
+[PSR-SX900 Bank 106]
+17=VintageAccomp3
+61=Live! BrassDynamics
+81=RS SawLead2
+101=LFO Sync4
+
+[PSR-SX900 Bank 107]
+17=VintageAccomp2
+27=Cool! ChorusSolid
+61=Live! SforzandoFall
+81=RS RampLead
+101=LFO Sync2
+
+[PSR-SX900 Bank 108]
+17=VintageAccomp1
+27=Cool! SlapSolid
+61=Live! Brass f
+66=Live! BigBandOctave
+81=RS techSaw
+101=LFO Sync1
+
+[PSR-SX900 Bank 109]
+17=Cool! TwoChannels
+27=Cool! BalladSolid
+61=Live! AccentBrass
+66=Live! BigBandHorns2
+81=RS DualSaw
+101=LFO Sync3
+
+[PSR-SX900 Bank 110]
+17=Cool! RotarySwitch
+27=Cool! SlideSolid
+61=Live! Brass mf
+66=Live! BigBandHorns1
+101=LFO SynBass
+
+[PSR-SX900 Bank 111]
+16=Cool! EvenBars
+17=Cool! HoldItFast
+18=Cool! R&B TremoloOrgan
+27=Cool! TremoloSolid
+61=Live! Brass p
+66=Sweet! GrowlSax
+
+[PSR-SX900 Bank 112]
+1=Live! BrightPiano
+2=MIDIGrand
+3=HonkyTonk
+4=FunkEP
+5=DX Modern
+6=Live! Harpsichord
+7=ClaviBright
+8=Celesta
+9=Glockenspiel
+10=MusicBox
+11=Vibraphone
+12=Marimba
+13=Xylophone
+14=TubularBells
+15=Dulcimer
+16=JazzOrgan1
+17=ClickOrgan
+18=RockOrgan1
+19=FullOrgan
+20=ReedOrgan
+21=MusetteAccordion
+22=Sweet! Harmonica
+23=BallroomAccordion
+25=FolkGuitar
+27=Cool! CleanGuitar
+28=MutedGuitar
+29=OverdriveGuitar
+30=DistortionGuitar
+32=AcousticBass3
+33=MellowFinger
+34=PickBass
+35=Cool! FretlessBass
+36=SlapBass
+37=FunkBass
+38=ResonanceBass
+39=AnalogBass
+40=SoloViolin
+41=Viola
+42=Cello
+43=Contrabass
+44=TremoloStrings
+45=Pizzicato
+46=Harp
+47=Timpani
+48=Strings
+49=ChamberStrings
+50=SynthStrings1
+51=AnalogStrings
+52=Choir
+53=VoxHumana
+54=AirChoir
+55=OrchestraHit
+56=SoloTrumpet
+57=SoloTrombone
+58=Tuba2
+59=MutedTrumpet
+60=Live! FrenchHorns
+61=BrassSection
+62=SynthBrass
+63=AnalogBrass
+64=SopranoSax
+65=AltoSax
+66=TenorSax
+67=BaritoneSax2
+68=Oboe
+69=EnglishHorn
+70=Bassoon
+71=Clarinet
+72=Piccolo
+73=Flute
+74=Recorder
+75=EthnicFlute
+77=Shakuhachi
+78=Whistle
+79=Ocarina
+80=SquareLead
+81=SawLead
+83=AeroLead
+84=Portatone
+86=DanceHook
+87=UnderHeim
+88=Fantasia
+89=Area51
+90=PopPad
+91=XenonPad
+92=DX Pad
+94=Equinox
+95=Wave2001
+97=FarEast
+98=Stardust
+99=Atmosphere
+101=Skydiver
+104=Sitar3
+105=Banjo2
+106=Shamisen
+107=Koto
+108=Kalimba
+109=Bagpipe
+110=Fiddle
+114=SteelDrums
+
+[PSR-SX900 Bank 113]
+0=Live! GrandPiano
+2=CP80 Stage
+3=Live! OctavePiano1
+4=Cool! TremoloSuitcase
+5=HyperTines
+6=Live! GrandHarpsichord
+7=WahClavi
+11=JazzVibes
+16=JazzOrgan2
+17=DanceOrgan
+18=RockOrgan3
+19=ChapelOrgan1
+21=TuttiAccordion
+22=ModernHarp
+23=Bandoneon
+25=Live! 12StringGuitar
+26=OctaveGuitar
+27=TremoloGuitar
+28=FunkGuitar
+29=FeedbackGuitar
+30=CrunchGuitar
+33=AlpBass
+34=Cool! PickDynoBass
+35=SuperFretless
+36=FusionBass
+37=DX FunkBass
+38=HiQ Bass
+40=Sweet! Violin
+44=Live! TremoloStrings
+45=Live! PizzicatoStrings
+46=Hackbrett2
+48=OrchStrings
+49=SlowStrings
+50=SynthStrings2
+51=OberStrings
+53=GothicVox
+54=Voices
+55=BrassHit
+56=Flugelhorn
+57=TromboneSection
+58=BaritoneHorn
+59=BallroomBrass
+60=Hybrihorn
+61=BigBandBrass
+62=80sBrass
+63=OberBrass
+64=Sweet! SopranoSax
+66=WoodwindsEns
+68=Sweet! ClassicalOboe
+73=ChiffPanFlute
+75=Sweet! PanPipes
+80=HipLead
+81=BigLead
+83=ProLead
+84=Adrenaline
+86=OctaveHook
+87=Impact
+88=Symbiont
+89=DarkMoon
+90=BrightSawPad
+91=RS WarmPad
+94=Insomnia
+95=BrightOber
+97=Mystery
+98=SunBell
+99=CyberPad
+101=Bubblespace
+104=Sitar2
+105=Oud
+107=Kanoun
+110=ErHu
+
+[PSR-SX900 Bank 114]
+0=Live! WarmGrand
+2=BalladStack
+3=Live! OctavePiano2
+4=Cool! GalaxyEP
+5=VenusEP
+7=StereoClavi
+11=Vibes&Flutes
+16=Tibia16'&4'Accomp
+17=TibiaFullAccomp
+18=PurpleOrgan
+19=HymnOrgan
+20=Harmonium1
+21=SoftAccordion
+22=BluesHarp
+23=TangoAccordion
+25=Sweet! Mandolin
+27=DeepChorus
+28=Cool! ElectricGuitar
+29=LeadGuitar
+30=HeavyStack
+32=Bass&Cymbal
+33=Cool! ElectricBass
+34=RockBass
+38=HardBass
+39=SubBass
+48=Symphonic
+49=StringQuartet
+52=HahChoir
+57=MellowTrombone
+58=BaritoneHit
+59=Sweet! MutedTrumpet
+60=Hybripad
+61=FullHorns
+62=TechnoBrass
+63=SoftAnalog
+65=Sweet! AltoSax
+71=Sweet! JazzClarinet
+73=Sweet! JazzFlute
+77=Nay
+80=MiniLead
+81=Blaster
+83=RS DistortionLead
+84=Paraglide
+87=CryingLead
+88=Stargate
+89=Dunes
+90=GloriousPhase
+93=GlassPad
+94=Solaris
+95=HipaStrings
+98=AngelVibes
+99=Mediterrain
+101=Sirius
+
+[PSR-SX900 Bank 115]
+0=Live! ConcertGrand
+3=BallroomOrgan
+4=PolarisEP
+5=ModernEP
+7=PhaseClavi
+16=DrawbarOrgan2
+17=MellowVintage
+18=Cool! FullRocker
+19=ChapelOrgan2
+20=Harmonium2
+21=SmallAccordion
+23=TangoAccBass
+24=Live! ClassicalGuitar
+25=CampfireGuitar
+26=Cool! JazzGuitar
+27=PedalSteelGuitar
+28=50sVintageMute
+29=VintageAmp
+30=Cool! PowerLead
+33=Cool! HalfMute
+38=ClickBass
+39=80sSynthBass
+45=Live! PizzicatoGlocken
+48=ConcertoStrings
+49=Marcato
+52=UuhChoir
+56=Sweet! Trumpet
+57=SoftTrombone
+60=Live! SymphonyHorns2
+61=HighBrass
+62=FunkyAnalog
+63=OberHorns
+66=BrassCombo
+71=Moonlight
+73=Sweet! ClassicalFlute
+80=VinylLead
+81=Analogon
+84=Skyline
+88=GoldenAge
+89=NeoWarmPad
+90=BigOctavePad
+93=DigitalPad
+94=Ionosphere
+95=OberSweep
+101=S&H Groove
+
+[PSR-SX900 Bank 116]
+4=VintageEP
+5=NewTines
+16=BrightDrawbar
+17=60sOrgan
+18=RotaryDriveOrgan
+21=Accordion
+24=Live! DynamicNylonGtr
+25=Live! DynamicSteelGtr
+26=Cool! JazzSoloGuitar
+27=BrightClean
+28=Cool! FunkGuitar
+29=RockGuitar
+30=VodooLead
+38=HouseBass
+39=DrySynthBass
+48=BowStrings
+49=Live! Orchestra
+52=Live! GospelVoices
+56=JazzTrumpet
+57=Trombone
+60=BreathBrass
+61=MellowBrass
+62=Live! OctaveBrass
+63=FatSynthBrass
+66=Live! SaxSection
+73=FluteEnsemble
+80=HiBias
+81=FireWire
+84=Tekkline
+88=TimeTravel
+89=Disclosure
+90=RS ShortResonance
+94=HahPad
+95=Messenger
+101=VelocityAshrami
+109=Sheng
+
+[PSR-SX900 Bank 117]
+4=StageEP
+5=SuperDX
+16=Cool! ClassicJazz
+18=Cool! RotaryOrgan
+21=Steirische
+24=Live! NylonGuitarSlide
+25=Live! SteelGuitar
+26=DX JazzGuitar
+27=60sCleanGuitar
+28=Cool! SlideClean
+29=Cool! BluesGuitar
+30=PowerChord
+38=PunchyBass
+39=TB Bass
+48=Live! Strings p
+49=Live! Strings Pad
+52=Live! Mmh
+57=Sweet! SweetTrombone
+60=Live! SoftHorns
+61=SmallBrass
+62=Live! PopBrass
+66=Sweet! TenorSax
+80=HopLead
+81=Warp
+84=TechLead
+88=Millennium
+89=MelodyMaker
+95=MellowPad
+101=EveningStars
+
+[PSR-SX900 Bank 118]
+4=Cool! SuitcaseEP
+5=JazzChorus
+16=EuroOrgan
+17=ElectricOrgan
+18=Cool! ClassicScanner
+21=MasterAccordion
+24=Live! HardFlamenco
+25=Live! SteelGuitarSlide
+26=AlohaGuitar
+27=SolidGuitar
+28=Cool! DynamicMute
+38=BigDrone
+39=DX100Bass
+48=Live! Strings mf
+49=Orchestra&Horns
+52=Live! Humming
+56=Sweet! Flugelhorn
+57=SmoothTrombone
+60=Live! SoftTrombones
+61=PopBrass
+62=Live! HyperBrass
+66=GrowlSax
+73=DiZi
+80=TinyLead
+81=EarlyLead
+84=HipaLead
+88=SweetHeaven
+89=BigTune
+95=DarkPad
+101=PsychoPad
+
+[PSR-SX900 Bank 119]
+4=Cool! ElectricPiano
+5=SmoothTine
+16=GospelOrgan
+17=PercOrgan
+18=RockOrgan2
+21=FrenchMusette
+24=Live! NylonMute
+25=18StringGuitar
+26=SmoothLead
+27=Electric12String
+28=Cool! MutedGuitar
+38=FatLoBass
+39=RampBass
+48=Live! Strings f
+49=Orchestra&Flute
+56=Sweet! Cornet
+60=Live! SymphonyBrass
+61=MellowHorns
+62=HybridComp
+66=BalladSection
+80=SoftR&B
+81=Fargo
+84=RS QuackLead
+87=RS Sync2
+88=BellHeaven
+89=SuperDarkPad
+95=AnalogSwell
+105=PiPa
+
+[PSR-SX900 Bank 120]
+4=PhaseEP
+5=ChorusBell
+16=JazzOrgan3
+17=DrawbarOrgan1
+21=JazzAccordion
+25=Live! SteelMute
+27=VintageTrem
+30=MetalMaster
+39=DarkCoreBass
+48=Live! Spiccato
+49=OrchestraTutti
+56=Sweet! MellowTrumpet
+60=Live! SmallBrass
+61=BrightBrass
+62=SoftVelocityBrass
+66=SaxyMood
+80=PopLead
+81=WireLead
+88=PanHeaven
+89=AnalogPad
+122=Noise
+
+[PSR-SX900 Bank 121]
+5=Cool! DX Sparkle
+16=Cool! CurvedBars
+21=AccordionBass
+27=SolidChord
+39=FunkBass
+48=Live! StringFalls
+49=Orchestra&Oboe
+56=Sweet! SilverTrumpet
+61=BigBrass
+62=Live! PowerBrass
+66=Live! SaxSectionSoft
+80=TranceLead
+81=FunkyLead
+88=DreamHeaven
+89=DarkAngelPad
+
+[PSR-SX900 Bank 122]
+0=S.Art! ConcertGrand
+16=Tibia8'&4'Accomp
+17=Tibia8'Accomp
+21=MasterBass
+27=WahGuitar
+39=BleepBass
+49=Live! Allegro
+56=Sweet! GoldenTrumpet
+61=TrumpetEns
+66=Live! SaxSectionHard
+80=PanLead
+81=Oxygen
+88=ProHeaven
+89=LitePad
+
+[PSR-SX900 Bank 123]
+5=Cool! DX Dynamic
+16=Kinura8'
+17=Vox8'Accomp
+21=MusetteBass
+27=VintageOpen
+48=Live! MovieStrings
+49=Live! DiscoStrings1
+56=Live! BrassBand
+61=SoftBrass
+66=Live! SaxAppeal
+80=PercSquare
+81=Matrix
+88=Sunbeam
+89=RS SynthPad
+
+[PSR-SX900 Bank 124]
+5=Cool! DX Ballad
+16=TheatreTrumpet
+17=Trumpet16'&8'
+27=ChorusGuitar
+48=Live! DynamicStrings
+49=Live! DiscoStrings2
+61=NaturalBrass
+66=SaxStack
+80=SoftMini
+81=Robolead
+88=StringBells
+89=RS NosiePad
+
+[PSR-SX900 Bank 125]
+16=Vox&TibiaAccomp
+17=Trumpet&Kinura
+27=Cool! VintageLead
+48=Watariyat
+61=Sforzando
+66=Sweet! SweetTenorSax
+80=BrightMini
+81=TrumpetSaw
+88=CrystalEyes
+89=RS TeknoMan
+
+[PSR-SX900 Bank 126]
+16=OrganFlutes ClassicJazz
+17=Cool! JazzSlow
+18=SweetTheatre
+27=VintageStrum
+61=BrassHit
+66=Sweet! BalladTenorSax
+80=OrbitSine
+81=AttackSaw
+88=Padbells
+89=RS Analog Pad
+
+[PSR-SX900 Bank 127]
+16=Cool! HollowBars
+17=Cool! JazzFast
+18=FullTheatre
+61=Live! DynamicBrass
+66=Sweet! PopTenor
+80=RS DualSquare
+81=PunchyHook
+
+
+
+; *******************************************************************************************
+; Drumkits, Percussion and SFX
+; *******************************************************************************************
+
+
+[PSR-SX900 SFX]
+0=PSR-SX900 SFX Kit 1
+1=PSR-SX900 SFX Kit 2
+2=PSR-SX900 NewSFX Kit 1
+3=PSR-SX900 NewSFX Kit 2
+8=PSR-SX900 SFX NoisesKit
+20=PSR-SX900 SFX BassDrumKit
+21=PSR-SX900 SFX ReverseBDKit
+35=PSR-SX900 SFX ArabicKit2
+36=PSR-SX900 SFX ArabicKit1
+40=PSR-SX900 Live!SFX CubanKit
+43=PSR-SX900 Live!SFX PopLatinKit1
+44=PSR-SX900 Live!SFX PopLatinKit2
+45=PSR-SX900 Live!Drums PopPercKit
+49=PSR-SX900 Live!SFX CymbalKit
+64=PSR-SX900 SFX ArabicMixKit
+67=PSR-SX900 Live!SFX TurkishKit
+106=PSR-SX900 Live!SFX VocalBeatbox
+109=PSR-SX900 Live!SFX VocalEffectsKit
+110=PSR-SX900 Live!SFX GospelAdLibs
+114=PSR-SX900 SFX IndianKit
+124=PSR-SX900 SFX ChineseKit
+
+
+[PSR-SX900 Drums]
+0=PSR-SX900 Live!Drums StandardKit1
+1=PSR-SX900 Live!Drums StandardKit2
+4=PSR-SX900 Drums HitKit
+8=PSR-SX900 Drums RoomKit
+16=PSR-SX900 Drums RockKit
+17=PSR-SX900 Live!Drums RockDrumKit
+24=PSR-SX900 Drums ElectroKit1
+25=PSR-SX900 Drums AnalogKit
+27=PSR-SX900 Drums DanceKit
+32=PSR-SX900 Drums JazzKit
+40=PSR-SX900 Live!Drums BrushKit
+41=PSR-SX900 Live!Drums RealBrushesKit
+48=PSR-SX900 Live!Drums SymphonyKit
+56=PSR-SX900 Drums HipHopKit
+57=PSR-SX900 Drums BreakKit
+58=PSR-SX900 Drums AnalogT8Kit
+59=PSR-SX900 Drums AnalogT9Kit
+60=PSR-SX900 Drums HouseKit
+61=PSR-SX900 Drums DrumMachine
+66=PSR-SX900 Drums 80sPopKit
+67=PSR-SX900 Drums 80sR&B Kit
+68=PSR-SX900 Drums DubstepKit
+69=PSR-SX900 Drums EDM Kit
+70=PSR-SX900 Drums ElectroKit2
+71=PSR-SX900 Drums TrapKit
+72=PSR-SX900 Drums SchlagerKit
+73=PSR-SX900 Live!Drums PopDrumKit
+75=PSR-SX900 Live!Drums JazzBrushKitComp
+86=PSR-SX900 Live!Drums StudioKit
+87=PSR-SX900 Live!Drums PowerKit1
+88=PSR-SX900 Live!Drums PowerKit2
+89=PSR-SX900 Live!Drums AcousticKit
+90=PSR-SX900 Live!Drums RockKit
+91=PSR-SX900 Live!Drums RealDrumKit
+127=PSR-SX900 SFX ChineseMixKit
+
+
+
+; -------------------------------------------------------------------------------------------
+.Note Names
+; -------------------------------------------------------------------------------------------
+
+[GM2 Standard Set]
+27=High Q
+28=Slap
+29=Scratch Push
+30=Scratch Pull
+31=Sticks
+32=Square Click
+33=Metronome Click
+34=Metronome Bell
+35=Acoustic Bass Drum
+36=Bass Drum 1
+37=Side stick
+38=Acoustic Snare
+39=Hand Clap
+40=Electric Snare
+41=Low Floor Tom
+42=Closed Hi-Hat
+43=High Floor Tom
+44=Pedal Hi-Hat
+45=Low Tom
+46=Open Hi-Hat
+47=Low-Mid Tom
+48=High Mid Tom
+49=Crash Cymbal 1
+50=High Tom
+51=Ride Cymbal 1
+52=Chinese Cymbal
+53=Ride Bell
+54=Tambourine
+55=Splash Cymbal
+56=Cowbell
+57=Crash Cymbal 2
+58=Vibra-slap
+59=Ride Cymbal 2
+60=High Bongo
+61=Low Bongo
+62=Mute High Conga
+63=Open High Conga
+64=Low Conga
+65=High Timbale
+66=Low Timbale
+67=High Agogo
+68=Low Agogo
+69=Cabasa
+70=Maracas
+71=Short Whistle
+72=Long Whistle
+73=Short Guiro
+74=Long Guiro
+75=Claves
+76=Hi Wood Block
+77=Low Wood Block
+78=Mute Cuica
+79=Open Cuica
+80=Mute Triangle
+81=Open Triangle
+82=Shaker
+83=Jingle Bell
+84=Bell Tree
+85=Castanets
+86=Mute Surdo
+87=Open Surdo
+
+[GM2 Room Set]
+BasedOn=GM2 Standard Set
+41=Room Low Tom 2
+43=Room Low Tom 1
+45=Room Mid Tom 2
+47=Room Mid Tom 1
+58=Room Hi Tom 2
+60=Room Hi Tom 1
+
+[GM2 Power Set]
+BasedOn=GM2 Standard Set
+36=Power Kick Drum
+38=Power Snare Drum
+41=Power Low Tom 2
+43=Power Low Tom 1
+45=Power Mid Tom 2
+47=Power Mid Tom 1
+58=Power Hi Tom 2
+60=Power Hi Tom 1
+
+[GM2 Electronic Set]
+BasedOn=GM2 Standard Set
+36=Electric Bass Drum
+38=Electric Snare 1
+40=Electric Snare 2
+41=Electric Low Tom 2
+43=Electric Low Tom 1
+45=Electric Mid Tom 2
+47=Electric Mid Tom 1
+58=Electric Hi Tom 2
+60=Electric Hi Tom 1
+62=Reverse Cymbal
+
+[GM2 Analog Set]
+BaseOn=GM2 Standard Set
+36=Analog Bass Drum
+37=Analog Rim Shot
+38=Analog Snare
+41=Analog Low Tom 2
+42=Analog CHH1
+43=Analog Low Tom 1
+44=Analog CHH2
+45=Analog Mid Tom 2
+46=Analog OHH
+47=Analog Mid Tom 1
+48=Analog Hi Tom 2
+49=Analog Cymbal
+50=Analog Hi Tom 1
+56=Analog Cowbell
+62=Analog High Conga
+63=Analog Mid Conga
+64=Analog Low Conga
+70=Analog Maracas
+75=Analog Claves
+
+[GM2 Jazz Set]
+BasedOn=GM2 Standard Set
+35=Jazz Kick 2
+36=Jazz Kick 1
+
+[GM2 Brush Set]
+BasedOn=GM2 Standard Set
+35=Jazz Kick 2
+36=Jazz Kick 1
+38=Brush Tap
+39=Brush Slap
+40=Brush Swirl
+
+[GM2 Orchestra Set]
+BasedOn=GM2 Standard Set
+27=Closed Hi-Hat 2
+28=Pedal Hi-Hat
+29=Open Hi-Hat
+30=Ride Cymbal 1
+35=Concert BD 2
+36=Concert BD 1
+38=Concert SD
+39=Castanets
+40=Concert SD
+41=Timpani F
+42=Timpani F#
+43=Timpani G
+44=Timpani G#
+45=Timpani A
+46=Timpani A#
+47=Timpani B
+48=Timpani c
+49 Timpani c#
+50=Timpani d
+51=Timpani d#
+52=Timpani e
+53=Timpani f
+57=Concert Cymbal 2
+59=Concert Cymbal 1
+88=Applause
+
+[GM2 SFX Set]
+39=High Q
+40=Slap
+41=Scratch Push
+42=Scratch Pull
+43=Sticks
+44=Square Click
+45=Metronome Click
+46=Metronome Bell
+47=Guitar Fret
+48=Guitar Cutting Noise Up
+49=Guitar Cutting Noise Down
+50=String Slap of Double Bass
+51=A.Key Click
+52=Laughing
+53=Scream
+54=Punch
+55=Heart Beat
+56=Footsteps 1
+57=Footsteps 2
+58=Applause
+59=Door Creaking
+60=Door
+61=Scratch
+62=Wind Chimes
+63=Car-Engine
+64=Car-Stop
+65=Car-Pass
+66=Car-Crash
+67=Siren
+68=Train
+69=JetPlane
+70=Helicopter
+71=Starship
+72=Gun Shot
+73=Machine Gun
+74=Lasergun
+75=Explosion
+76=Dog
+77=Horse Gallop
+78=Birds
+79=Rain
+80=Thunder
+81=Wind
+82=Seashore
+83=Stream
+84=Bubble
+
+; -------------------------------------------------------------------------------------------
+;  S X 9 0 0   S F X  &  P E R C U S S I O N
+; -------------------------------------------------------------------------------------------
+
+[PSR-SX900 SFX Kit 1]
+36=Cutting Noise
+37=Cutting Noise 2
+39=String Slap
+52=Flute Key Click
+68=Shower
+69=Thunder
+70=Wind
+71=Stream
+72=Bubble
+73=Feed
+84=Dog
+85=Horse
+86=Bird Tweet
+90=Ghost
+91=Maou
+
+[PSR-SX900 SFX Kit 2]
+36=Phone Call
+37=Door Creaking
+38=Door Slam
+39=Scratch Cut
+40=Scratch Split
+41=Wind Chime
+42=Telephone Ring
+52=Car Engine Ignition
+53=Car Tires Squeal
+54=Car Passing
+55=Car Crash
+56=Siren
+57=Train
+58=Jet Plane
+59=Starship
+60=Burst
+61=Roller Coaster
+62=Submarine
+68=Laugh
+69=Scream
+70=Punch
+71=Heart Beat
+72=Foot Steps
+84=Machine Gun
+85=Laser Gun
+86=Explosion
+87=Firework
+
+
+[PSR-SX900 NewSFX Kit 1]
+36=Cutting Noise 1
+37=Cutting Noise 2
+39=String Slap
+52=Flute Key Click
+68=Shower 2
+69=Thunder 2
+70=Wind 2
+71=Stream 2
+72=Bubble 2
+73=Feed
+84=Dog
+85=Horse
+86=Bird Tweet
+90=Ghost
+91=Maou
+
+[PSR-SX900 NewSFX Kit 2]
+36=Phone Call 2
+37=Door Creaking 2
+38=Door Slam 2
+39=Scratch Cut
+40=Scratch Split
+41=Wind Chime
+42=Telephone Ring 2
+52=Car Engine Ignition
+53=Car Tires Squeal
+54=Car Passing
+55=Car Crash
+56=Siren 2
+57=Train 2
+58=Jet Plane 2
+59=Starship
+60=Burst
+61=Roller Coaster
+62=Submarine
+68=Laugh
+69=Scream 2
+70=Punch 2
+71=Heart Beat
+72=Foot Steps 2
+84=Machine Gun 2
+85=Laser Gun
+86=Explosion 2
+87=Firework
+
+[PSR-SX900 SFX NoisesKit]
+36=White Noise
+37=Pink Noise
+38=White Noise Down 1
+39=Pink Noise Down 1
+40=White Noise Down 2
+41=Pink Noise Down 2
+42=White Noise Up 2
+43=White Noise Up 1
+44=Pink Noise Up
+45=White Noise Up Release
+46=Pink Noise Up Release
+47=White Noise Up LFO
+48=Pink Noise Up LFO
+
+[PSR-SX900 SFX BassDrumKit]
+13=BD Electro
+14=BD FX Gate
+15=BD Hammer
+16=BD Analog Power
+17=BD Analog Distortion 5
+18=BD Analog Distortion 6
+19=BD Analog Distortion 4
+20=BD Analog Distortion 3
+21=BD Analog Distortion 2
+22=BD Analog Tight
+23=BD Analog 94
+24=BD Analog Blip 2
+25=BD Analog Rubber 2
+26=BD Analog 93
+27=BD Analog 90
+28=BD Analog 83
+29=BD Analog 82
+30=BD Analog 92
+31=BD Analog 91
+32=BD Analog Deep
+33=BD Analog Hard 2
+34=BD Analog Hard 1
+35=BD Analog Blip 1
+36=BD Analog Rubber 1
+37=BD Analog Loose
+38=BD Synth 1
+39=BD Synth 2
+40=BD Analog Distortion 1
+41=Ripper
+42=BD Analog 70 L
+43=BD Analog 70
+44=BD Analog 80
+45=BD Analog 80 Long
+46=BD Dry
+47=BD Dry Hard
+48=BD Room 1
+49=BD Soft
+50=BD Room 2
+51=BD Break Lo-fi 2
+52=BD Break Lo-fi 1
+53=BD & Hi-Hat Open
+54=BD Jungle 2
+55=BD Jungle 1
+56=BD Jungle 3 
+57=BD D&B 1
+58=BD D&B 2
+59=BD RX5 1
+60=BD RX5 2
+61=BD Room 3
+62=BD Power Gate
+63=BD R&B 1
+64=BD R&B 2
+65=BD Lo-fi
+66=BD Hip Deep
+67=BD Break Deep
+68=BD Break Heavy
+69=BD Break Hard
+70=Big Drum
+71=Taiko Drum
+72=Surdo Open
+73=Feet 2
+74=BD Industrial
+75=Door Slam
+76=Punch
+77=Heart
+78=Feet 1
+79=BD Human
+80=BD Human Deep
+81=Vox Buh!
+82=Vox Muh!
+
+[PSR-SX900 SFX ReverseBDKit]
+13=Reverse BD Electro
+14=Reverse BD Fx Gate
+15=Reverse BD Hammer
+16=Reverse BD Analog Power
+18=Reverse BD Analog Distortion 6
+20=Reverse BD Analog Distortion 3
+21=Reverse BD Analog Distortion 2
+22=Reverse BD Analog Tight
+23=Reverse BD Analog 94
+24=Reverse BD Analog Blip
+25=Reverse BD Analog Rubber 2
+26=Reverse BD Analog 93
+27=Reverse BD Analog 90
+28=Reverse BD Analog 83
+29=Reverse BD Analog 82
+31=Reverse BD Analog 91
+32=Reverse BD Analog Deep
+34=Reverse BD Analog Hard 1
+35=Reverse BD Analog Blip 1
+36=Reverse BD Analog Rubber 1
+37=Reverse BD Analog Loose
+38=Reverse BD Synth 1
+39=Reverse BD Synth 2
+40=Reverse BD Analog Distortion 1
+41=Reverse Ripper
+43=Reverse BD Analog 70
+44=Reverse BD Analog 81
+46=Reverse BD Dry
+49=Reverse BD Soft
+50=Reverse BD Room 2
+51=Reverse BD Break Lo-fi 2
+52=Reverse BD Break Lo-fi 1
+53=Reverse BD & Hi-Hat Open
+56=Reverse BD Jungle 3
+57=Reverse BD D&B 1
+58=Reverse BD D&B 2
+59=Reverse BD RX5 1
+60=Reverse BD RX5 2
+61=Reverse BD Room 3
+62=Reverse BD Power Gate
+63=Reverse BD R&B 1
+64=Reverse BD R&B 2
+65=Reverse BD Lo-fi
+67=Reverse BD Break Deep
+68=Reverse BD Break Heavy
+69=Reverse BD Break Hard
+70=Reverse Big Drum
+71=Reverse Taiko Drum
+72=Reverse Surdo Open
+73=Reverse Feet 2
+74=Reverse Tom Industrial
+75=Reverse Door Slam
+76=Reverse Punch
+78=Reverse Feet 1
+79=Reverse BD Human
+80=Reverse BD Human Deep
+81=Reverse Vox Buh!
+82=Reverse Vox Muh!
+
+[PSR-SX900 SFX ArabicKit2]
+24=Nakarazan Dom
+25=Cabasa
+26=Nakarazan Edge
+27=Hager Dom
+28=Hager Edge
+29=Bongo H
+30=Bongo L
+31=Conga H Mute
+32=Conga H Open
+33=Conga L
+34=Zagrouda H
+35=Zagrouda L
+36=Kick Soft
+37=Side Stick
+38=Snare Soft
+39=Arabic Hand Clap
+40=Snare Drum
+41=Floor Tom L
+42=Hi-Hat Closed
+43=Floor Tom H
+44=Hi-Hat Pedal
+45=Low Tom
+46=Hi-Hat Open 1
+47=Mid Tom L
+48=Mid Tom H
+49=Crash Cymbal 1
+50=High Tom
+51=Ride Cymbal 1
+52=Crash Cymbal 2
+53=Duhulla Dom
+54=Tambourine
+55=Duhulla Tak
+56=Cowbell
+57=BDuhulla Sak
+58=Claves
+59=Doff Dom
+60=Katem Dom
+61=Katem Tak
+62=Katem Sak
+63=Katem Tak
+64=Doff Tak
+65=abla Dom
+66=Tabla Tak 1
+67=BTabla Tik
+68=Tabla Tak 2
+69=Tabla Sak
+70=Tabla Roll Edge
+71=Tabla Flam
+72=Sagat 1
+73=Tabel Dom
+74=Sagat 3
+75=Tabel Tak
+76=Sagat 2
+77=Riq Dom
+78=Riq Tak 2
+79=Riq Finger 1
+80=Riq Tak 1
+81=Riq Finger 2
+82=Riq Brass Tremolo
+83=Riq Sak
+84=Riq Tik
+
+[PSR-SX900 SFX ArabicKit1]
+13=Zarb Back mf
+14=Zarb Tom f
+15=Zarb Eshareh
+16=Zarb Whipping
+17=Tombak Tom f
+18=Neghareh Tom f
+19=Tombak Back f
+20=Neghareh Back f
+21=Tombak Snap f
+22=Neghareh Pelang f
+23=Tombak Trill
+24=Khaligi Clap 1
+25=Arabic Zalgouta Open
+26=Khaligi Clap 2
+27=Arabic Zalgouta Close
+28=Arabic Hand Clap
+29=Tabel Tak 1
+30=Sagat 1
+31=Tabel Dom
+32=Sagat 2
+33=Tabel Tak 2
+34=Sagat 3
+35=Riq Tik 3
+36=Riq Tik 2
+37=Riq Tik Hard 1
+38=Riq Tik 1
+39=Riq Tik Hard 2
+40=Riq Tik Hard 3
+41=Riq Tish
+42=Riq Snouj 2
+43=Riq Roll
+44=Riq Snouj 1
+45=w Tom Riq Sak
+46=Riq Snouj 3
+47=Riq Snouj 4
+48=Riq Tak 1
+49=Riq Brass 1
+50=Riq Tak 2
+51=Riq Brass 2
+52=Riq Dom
+53=Katem Tak Doff
+54=Katem Dom
+55=Katem Sak 1
+56=Katem Tak 1
+57=Katem Sak 2
+58=Katem Tak 2
+59=Daholla Sak 2
+60=Daholla Sak 1
+61=Daholla Tak 1
+62=Daholla Dom
+63=Daholla Tak 2
+64=Tablah Prok
+65=Tablah Dom 2
+66=Tablah Roll of Edge
+67=Tablah Tak Finger 4
+68=Tablah Tak Trill 1
+69=Tablah Tak Finger 3
+70=Tablah Tak Trill 2
+71=Tablah Tak Finger 2
+72=Tablah Tak Finger 1
+73=Tablah Tik 2
+74=Tablah Tik 4
+75=Tablah Tik 3
+76=Tablah Tik 1
+77=Tablah Tak 3
+78=Tablah Tak 1
+79=Tablah Tak 4
+80=Tablah Tak 2
+81=Tablah Sak 2
+82=Tablah Tremolo
+83=Tablah Sak 1
+84=Tablah Dom 1
+
+
+
+[PSR-SX900 Live!SFX CubanKit]
+22=Conga H Tip
+23=Conga H Heel
+24=Conga H Open
+25=Conga H Mute
+26=Conga H Slap Open
+27=Conga H Slap
+28=Conga H Slap Mute
+29=Conga L Tip
+30=Conga L Heel
+31=Conga L Open
+32=Conga L Mute
+33=Conga L Slap Open
+34=Conga L Slap
+35=Conga L Slide
+36=Bongo H Open One Finger
+37=Bongo H Open Three Finger
+38=Bongo H Rim
+39=Bongo H Tip
+40=Bongo H Heel
+41=Bongo H Slap
+42=Bongo L Open One Finger
+43=Bongo L Open Three Finger
+44=Bongo L Rim
+45=Bongo L Tip
+46=Bongo L Heel
+47=Bongo L Slap
+48=Timbale L
+53=Paila L
+54=Timbale H
+59=Paila H
+60=Cowbell Top
+64=Guiro Short
+65=Guiro Long
+68=Tambourine
+72=Maracas
+73=Shaker
+74=Cabasa
+
+
+[PSR-SX900 Live!SFX PopLatinKit1]
+13=Cajon Low
+14=Cajon Slap
+15=Cajon Tip
+16=Claves High
+17=Claves Low
+18=Hand Clap
+20=Finger Snap
+21=Castanet
+22=Conga H Tip
+23=Conga H Heel
+24=Conga H Open
+25=Conga H Mute
+26=Conga H Slap Open
+27=Conga H Slap
+28=Conga H Slap Mute
+29=Conga L Tip
+30=Conga L Heel
+31=Conga L Open
+32=Conga L Mute
+33=Conga L Slap Open
+34=Conga L Slap
+35=Conga L Slide
+36=Bongo H Open One Finger
+37=Bongo H Open Three Finger
+38=Bongo H Rim
+39=Bongo H Tip
+40=Bongo H Heel
+41=Bongo H Slap
+42=Bongo L Open One Finger
+43=Bongo L Open Three Finger
+44=Bongo L Rim
+45=Bongo L Tip
+46=Bongo L Heel
+47=Bongo L Slap
+48=Timbale L
+53=Paila L
+54=Timbale H
+59=Paila H
+60=Cowbell Top
+61=Cowbell 1
+62=Cowbell 2
+63=Cowbell 3
+64=Guiro Short
+65=Guiro Long
+66=Metal Guiro Short
+67=Metal Guiro Long
+68=Tambourine
+69=Tambourim Open
+70=Tambourim Mute
+71=Tambourim Tip
+72=Maracas
+73=Shaker
+74=Cabasa
+75=Cuica Mute
+76=Cuica Open
+77=Cowbell High 1
+78=Cowbell High 2
+79=Shekere
+80=Shekere Tone
+81=Triangle Mute
+82=Triangle Open
+84=Wind Chime
+
+[PSR-SX900 Live!SFX PopLatinKit2]
+13=Cajon Low
+14=Cajon Slap
+15=Cajon Tip
+16=Claves High
+17=Claves Low
+18=Hand Clap
+20=Finger Snap
+21=Castanet
+22=Conga H Tip
+23=Conga H Heel
+24=Conga H Open
+25=Conga H Mute
+26=Conga H Slap Open
+27=Conga H Slap
+28=Conga H Slap Mute
+29=Conga L Tip
+30=Conga L Heel
+31=Conga L Open
+32=Conga L Mute
+33=Conga L Slap Open
+34=Conga L Slap
+35=Conga L Slide
+36=Bongo H Open One Finger
+37=Bongo H Open Three Finger
+38=Bongo H Rim
+39=Bongo H Tip
+40=Bongo H Heel
+41=Bongo H Slap
+42=Bongo L Open One Finger
+43=Bongo L Open Three Finger
+44=Bongo L Rim
+45=Bongo L Tip
+46=Bongo L Heel
+47=Bongo L Slap
+48=Timbale L
+53=Paila L
+54=Timbale H
+55=Hand Clap Mute 1
+56=Hand Clap Mute 2
+57=Hand Clap Open 1
+58=Hand Clap Open 2
+59=Paila H
+60=Cowbell Top
+61=Cowbell 1
+62=Cowbell 2
+63=Cowbell 3
+64=Guiro Short
+65=Guiro Long
+66=Metal Guiro Short
+67=Metal Guiro Long
+68=Tambourine
+69=Tambourim Open
+70=Tambourim Mute
+71=Tambourim Tip
+72=Maracas
+73=Shaker
+74=Cabasa
+75=Cuica Mute
+76=Cuica Open
+77=Cowbell High 1
+78=Cowbell High 2
+79=Shekere
+80=Shekere Tone
+81=Triangle Mute
+82=Triangle Open
+84=Wind Chime
+
+[PSR-SX900 Live!Drums PopPercKit]
+13=Djembe Bass AF
+14=Djembe Close AF
+15=Djembe Open AF
+16=Djembe Slap AF
+17=Cajon Bass PP
+18=Cajon Mid PP
+19=Cajon Hi PP
+20=Conga Lo Open BR
+21=Conga Lo Close BR
+22=Conga Lo Slap Open BR
+23=Conga Lo Slap Mute BR
+24=Conga Hi Bass BR
+25=Conga Hi Heel BR
+26=Conga Hi Tip BR
+27=Conga Hi Open BR
+28=Conga Hi Slap Close BR
+29=Conga Hi Slap Open BR
+30=Conga Hi Slap Mute BR
+31=Bongo Lo Open 1 / Rim 1 AF
+32=Bongo Lo Open 3 AF
+33=Bongo Lo Close 3 AF
+34=Bongo Lo Slap AF
+35=Bongo Hi Heel AF
+36=Bongo Hi Tip AF
+37=Bongo Hi Open 1 /Rim 1 AF
+38=Bongo Hi Open 3 / Rim 3 AF
+39=Bongo Hi Mute1 AF
+40=Bongo Hi Slap AF
+41=Cowbell 5 Mouth AF
+42=Cowbell 3 Mouth AF
+43=Chabell Open AF
+44=Cowbell RD
+45=Fibre Clave PP
+46=Plastic Wood Block AF
+47=African Clave AF
+48=Wood Clave AF
+49=Crash Cymbal AF
+50=Temp Block 1 PP
+51=Temp Block 3 PP
+52=Temp Block 5 PP
+53=Tambourine 1 Shake PP
+54=Tambourine 1 Hit PP
+55=Tambourine 2 Shake PP
+56=Tambourine 2 Hit PP
+57=Tambourine 3 Hit PP
+58=Palmas L Mute AF
+59=Palmas R Mute AF
+60=Palmas L Open AF
+61=Palmas R Open AF
+62=Claps Lo PP
+63=Claps Hi PP
+64=Cabasa L BR
+65=Cabasa R BR
+66=Shaker 1 Up BR
+67=Shaker 1 Down BR
+68=Shaker 1 Long BR
+69=Shaker 2 Up BR
+70=Shaker 2 Down BR
+71=Shaker 2 Long BR
+72=Shaker 3 Up BR
+73=Shaker 3 Down BR
+74=Shaker 3 Long BR
+75=Shaker 4 Up BR
+76=Shaker 4 Down BR
+77=Shaker 4 Long BR
+78=Shaker 5 Up PP
+79=Shaker 5 Down PP
+80=Udu Bass Open PP
+81=Udu Bass PP
+82=Udu Heel PP
+83=Udu Tip PP
+84=Udu Body PP
+85=Udu Top PP
+86=Triangle Open Up BR
+87=Triangle Open Dn BR
+88=Triangle Close Up BR
+89=Triangle Close Dn BR
+90=Chimes Down AF
+91=Chimes Up AF
+
+[PSR-SX900 Live!SFX CymbalKit]
+36=Kick A
+37=Timbale A
+38=China Cymbal A
+39=Crash Cymbal A
+40=Ride Cymbal A
+41=Splash Cymbal A
+44=Crash Cymbal B1
+45=Crash Cymbal B2
+46=Ride Cymbal B
+49=Crash Cymbal C
+50=Ride Cymbal C
+51=Brush Ride Cymbal C
+52=Brush Sizzle Cymbal C
+55=Crash Cymbal D1
+56=Crash Cymbal D2
+57=Crash Cymbal D3
+58=Ride Cymbal D
+59=Splash Cymbal D
+62=Crash Cymbal E1
+63=Crash Cymbal E2
+64=Ride Cymbal E
+65=Hi-Hat Half Open E
+72=Crash Cymbal F1
+73=Brush Crash Cymbal F1
+74=Crash Cymbal F2
+75=Jazz Ride Cymbal F1
+76=Crash Cymbal F3
+77=Hi-Hat Splash F
+78=Ride Cymbal F1
+79=Crash Cymbal F4
+80=Ride Cymbal F2
+81=Brush Crash Cymbal F2
+82=Jazz Ride Cymbal F2
+83=Crash Cymbal F5
+
+[PSR-SX900 SFX ArabicMixKit]
+13=Conga Analog H
+14=Conga Analog M
+15=Conga Analog L
+16=Vibraslap
+17=Kick Techno L
+18=Side Stick Arabic Mix
+19=Snare Techno
+20=Guiro Long
+21=Kick Techno Q
+22=Open Rim Shot
+23=Funk Snare 2
+24=Kick Arabic Mix
+25=Funk Snare 1
+26=Snare Arabic Mix
+27=Hand Clap
+28=Snare
+29=Tom Electro 1
+30=Hi-Hat Closed Arabic Mix
+31=Tom Electro 2
+32=Hi-Hat Half Arabic Mix
+33=Tom Electro 3
+34=Hi-Hat Open Arabic Mix
+35=Tom Electro 4
+36=Tom Electro 5
+37=Crash Cymbal 1
+38=Tom Electro 6
+39=Hi-Hat Open 3 1
+40=Reverse Cymbal 
+41=Timbale L
+42=Conga H Open
+43=Timbale H
+44=Conga H Mute
+45=Tambourine
+46=Conga L
+47=Cowbell
+48=Claves
+49=Bongo H
+50=Wood Block H
+51=Bongo L
+52=Wood Block L
+53=Kurdish Dohol Low f
+54=Cabasa
+55=Kurdish Dohol High f
+56=Shaker
+57=Snap 1
+58=Maracas
+59=Snap 2
+60=Khaligi Twaisat 3
+61=Khaligi Twaisat 1
+62=Khaligi Twaisat 2
+63=Khaligi Twaisat 5 Open
+64=Khaligi Twaisat 4 Open
+65=Khaligi Tablah Small Dom
+66=Khaligi Tar Barashim Group Dom
+67=Khaligi Tablah Small Snap
+68=Khaligi Tar Barashim Group Sak
+69=Khaligi Tablah Small Sak 3
+70=Khaligi Tar Barashim Group Tak
+71=Khaligi Tablah Small Tik 3
+72=Khaligi Tablah Big Dom 1
+73=Khaligi Tar Segal Dom
+74=Khaligi Tablah Big Tak 1
+75=Khaligi Tar Segal Tak
+76=Khaligi Tablah Big Sak 1
+77=Tablah Dom 1
+78=Tablah Tak 1
+79=Tablah Tremolo
+80=Tablah Tak 2
+81=Tablah Tik 1
+82=Tablah Sak 1
+83=Tablah Tik 3
+84=Tablah Tik 2
+
+[PSR-SX900 Live!SFX TurkishKit]
+13=Asma Davul Left Side
+14=Asma Davul Right Side
+15=Asma Davul Side Body
+16=Asma Davul Both Sides
+17=Koltuk Davul Flam
+18=Koltuk Davul Teke
+19=Koltuk Davul Tek
+20=Koltuk Davul Dum
+21=Bendir Teke Flam
+22=Bendir Teke Dead
+23=Bendir Tek Dead
+24=Bendir Teke
+25=Bendir Tek
+26=Bendir Slap
+27=Bendir Dum
+28=Zil Right Close
+29=Zil Right Open
+30=Zil Left Close
+31=Zil Left Open
+32=Tef Teke Flam
+33=Tef Tek Mute
+34=Tef Teke Damped
+35=Tef Tek Mute Medium
+36=Tef Dum Mute
+37=Tef Cymbal
+38=Tef Cymbal Mute
+39=Tef Tremolo
+40=Tef Shake 1
+41=Tef Shake 2
+42=Tef Tek Flam
+43=Tef Full Open
+44=Tef Teke Open Short
+45=Tef Tek Open Short
+46=Tef Tek Open
+47=Tef Dum Open
+48=Hollo Finger Dead
+49=Hollo Slap
+50=Hollo Dum
+51=Kasik
+52=Kasik Flam
+53=Bass Darbuka Tek Dead
+54=Bass Darbuka Tek Flam
+55=Bass Darbuka Teke
+56=Bass Darbuka Teke Other Finger
+57=Bass Darbuka Teke Index Finger
+58=Bass Darbuka Tek
+59=Bass Darbuka Slap
+60=Bass Darbuka Slap Medium 
+61=Bass Darbuka Dum 
+62=Darbuka Roll Close
+63=Darbuka Roll Open
+64=Darbuka Teke Damped Flam
+65=Darbuka Tek Dead
+66=Darbuka Tek Damped
+67=Darbuka Teke Open Flam
+68=Darbuka Teke Open
+69=Darbuka Teke Other Finger 1
+70=Darbuka Teke Index Finger 1
+71=Darbuka Tek 1
+72=Darbuka Teke Other Finger 2
+73=Darbuka Teke Index Finger 2
+74=Darbuka Tek 2
+75=Darbuka Slap Medium
+76=Darbuka Slap
+77=Darbuka Dum
+78=Bongo Tek Roll
+79=Bongo Flam
+80=Bongo Tek Flam
+81=Bongo Tek
+82=Bongo Slap
+83=Bongo Flam Hi
+84=Bongo Dum
+
+
+[PSR-SX900 Live!SFX VocalBeatbox]
+13=Kick 3 Fitubom 2 BB
+14=Kick 5 Throat BB
+15=Kick 4 Throat BB
+16=Special 18 VScratch 1 BB
+17=Special 18 VScratch 2 BB
+18=Special 3 VScratch 2 BB
+19=Special 18 VScratch 3 BB
+20=Kick 3 Fitubom 1 BB
+21=Kick 6 Electro 2 BB
+22=Special 14 ZtkPauu 1 BB
+23=Special 14 ZtkPauu 2 BB
+24=Kick 7 Throat BB
+25=Special 20 Breathe 2 BB
+26=Special 20 Breathe 1 BB
+27=Special 19 Breathe 1 BB
+28=Special 21 Breathe 1 BB
+29=Special 11 Vibrato 1 BB
+30=Snare 4 T-Style BB
+31=Snare 6 ISCH-Style BB
+32=Snare Clap 1 BB
+33=Kick 6 Electro 1 BB
+34=Snare 7 TSCH-Style BB
+35=Kick 2 Classic 1 BB
+36=Kick 1 Classic 1 BB
+37=Snare 3 Side Stick 1 BB
+38=Snare 1 Classic 1 BB
+39=Snare 5 KCH-Style BB
+40=TSnare 8 KUCH-Style BB
+41=Tom 6 Classic 1 BB
+42=Hi-Hat 1 Z-Style BB
+43=Tom 5 Classic 1 BB
+44=Hi-Hat 5 Tch-Style BB
+45=Tom 4 Classic 1 BB
+46=Hi-Hat 7 Open 1 BB
+47=Tom 3 Classic 1 BB
+48=Tom 2 Classic 1 BB
+49=Cymbal 1 Crush Hi 1 BB
+50=Tom 1 Classic 1 BB
+51=Cymbal 1 Crush Hi 2 BB
+52=Cymbal 4 China 1 BB
+53=Cymbal 4 China 2 BB
+54=Hi-Hat 8 Pedal 2 BB
+55=Cymbal 3 FXCymbal Hi BB
+56=Hi-Hat 6 Wood-Style BB
+57=Cymbal 2 Crash Lo 1 BB
+58=Special 5 Scratch 1 BB
+59=Cymbal 2 Crash Lo 2 BB
+60=Tom 6 Rim Click BB
+61=Tom 5 Rim Click BB
+62=Tom 4 Rim Click BB
+63=Tom 3 Rim Click BB
+64=Tom 2 Rim Click BB
+65=Special 6 Now BB
+66=Special 6 Get Ready BB
+67=Special 13 Fanfare 1 BB
+68=Special 12 Trumpet 1 BB
+69=Percussion 1 Shaker 1 BB
+70=Hi-Hat 2 S-Style BB
+71=Special 1 Scratch 1 BB
+72=Special 2 Scratch 1 BB
+73=Hi-Hat 3 NZ-Style BB
+74=Special 4 Scratch 1 BB
+75=Hi-Hat 4 F-Style BB
+76=Special 9 Can 2 BB
+77=Special 9 Can 1 BB
+78=Tom 5 Electronic BB
+79=Tom 4 Electronic BB
+80=Tom 3 Electronic BB
+81=Tom 2 Electronic BB
+82=Tom 1 Electronic BB
+83=Special 16 VScratch 1 BB
+84=Special 16 VScratch 2 BB
+85=Special 17 VScratch 1 BB
+86=Special 17 VScratch 2 BB
+87=Special 15 Peeptkp 1 BB
+88=Special 15 Peeptkp 2 BB
+89=Special 7 Laughter 1 BB
+
+[PSR-SX900 Live!SFX VocalEffectsKit]
+36=Male "Ha" 1
+37=Female "Ha" 1
+38=Male "Ha" 2
+39=Male "Ha" 3
+40=Male "Bh" 1
+41=Female "Bh" 1
+42=Male "Kh" 1
+43=Female "Kh" 1
+44=Male "Ph" 1
+45=Female "Ph" 1
+46=Male "Th" 1
+47=Female "Th" 1
+48=Male "Bh" 2
+49=Female "Bh" 2
+50=Male "Kh" 2
+51=Female "Kh" 2
+52=Male "Ph" 2
+53=Female "Ph" 2
+54=Male "Th" 2
+55=Female "Th" 2
+56=Male "Ha" 4
+57=Female "Ha" 2
+58=Male "Ha" 5
+59=Male "Ha" 6
+60=Male "Bh" 3
+61=Female "Bh" 3
+62=Male "Kh" 3
+63=Female "Kh" 3
+64=Male "Ph" 3
+65=Female "Ph" 3
+66=Male "Th" 3
+67=Female "Th" 3
+68=Male "Bh" 4
+69=Female "Bh" 4
+70=Male "Kh" 4
+71=Female "Kh" 4
+72=Male "Ph" 4
+73=Female "Ph" 4
+74=Male "Th" 4
+75=Female "Th" 4
+
+[PSR-SX900 Live!SFX GospelAdLibs]
+48=C'mon 
+49=Hoo!
+50=Aha!
+51=Oh Yeah
+52=Yayayayayah
+53=Put Your Hands Together
+54=C'mon Now
+55=Heeey
+56=Everybody Now
+57=Clap Your Hands, Everybody C'mon
+58=With All Your Soul
+59=Stand Up On Your Feet
+60=Uhh Yeah
+61=Aaoh
+62=Come On!
+63=Yeah!
+64=Alright Now!
+65=One
+66=Two
+67=Three
+68=Four
+69=One!
+70=Two!
+71=Three!
+72=Four!
+73=Five!
+74=Six!
+75=Seven!
+76=Eight!
+77=Clap!
+78=Gospel Clap 1
+79=Gospel Clap 2
+
+[PSR-SX900 SFX IndianKit]
+15=Indian Hand Clap
+16=Dafli Open
+17=Dafli Slap
+18=Dafli Rim
+19=Duff Open
+20=Duff Slap
+21=Duff Rim
+22=Hatheli Long
+23=Hatheli Short
+24=Baya ge
+25=Baya ke
+26=Baya ghe
+27=Baya ka
+28=Tabla na
+29=Tabla tin
+30=Tablabaya dha
+31=Dhol 1 Open
+32=Dhol 1 Slap
+33=Dhol 1 Mute
+34=Dhol 1 Open Slap
+35=Dhol 1 Roll
+36=Dandia Short
+37=Dandia Long
+38=Chutki
+39=Chipri
+40=Khanjira Open
+41=Khanjira Slap
+42=Khanjira Mute
+43=Khanjira Bendup
+44=Khanjira Benddown
+45=Dholak 1 Open
+46=Dholak 1 Mute
+47=Dholak 1 Slap
+48=Dhol 2 Open
+49=Dhol 2 Slap
+50=Dhol 2 Rim
+51=Mridangam na
+52=Mridangam din
+53=Mridangam ki
+54=Mridangam ta
+55=Mridangam Chapu
+56=Mridangam Lo Closed
+57=Mridangam Lo Open
+58=Chimta Normal
+59=Chimta Ring
+60=Dholki Hi Open
+61=Dholki Hi Mute
+62=Dholki Lo Open
+63=Dholki Hi Slap
+64=Dholki Lo Slide
+65=Khol Open
+66=Khol Slide
+67=Khol Mute
+68=Manjira Open
+69=Manjira Close
+70=Jhanji Open
+71=Jhanji Close
+72=Mondira Open
+73=Mondira Close
+74=Indian Bhangra Scat 1
+75=Indian Bhangra Scat 2
+76=Indian Bhangra Scat 3
+77=Indian Bhangra Scat 4
+78=Khomokh Normal
+79=Khomokh Mute
+80=Khomokh mltatk
+81=Thavil Open
+82=Thavil Slap
+83=Thavil Mute
+84=Khartaal
+85=Dholak 2 Open
+86=Dholak 2 Slide
+87=Dholak 2 Rim 1
+88=Dholak 2 Rim 2
+89=Dholak 2 Ring
+90=Dholak 2 Slap
+
+[PSR-SX900 SFX ChineseKit]
+23=Da Cha 2
+24=Da Gu mp
+25=Da Gu Rim
+26=Da Gu f
+27=Da Gu Hand
+28=Da Gu Roll
+29=Pai Gu 4
+30=Pai Gu 4 High
+31=Pai Gu 3
+32=Pai Gu 3 High
+33=Pai Gu 2
+34=Pai Gu 2 High
+35=Pai Gu 1
+36=Luo High 1
+37=ong Batter
+38=Jin Luo
+39=Luo High 2
+40=Luo Mid-Low
+41=Luo
+42=Jin Luo Low
+43=Da Cha 1
+44=Da Cha Effect
+45=Zhong Cha
+46=Xiao Cha Effect
+47=Xiao Cha
+48=Mang Luo Low
+49=Mang Luo Mid
+50=Qing
+51=Finger Bell
+52=Luo Big
+53=Mu Yu Low
+54=Mu Yu Mid-Low
+55=Mu Yu Mid
+56=Mu Yu High
+57=Nan Bang Zi Roll
+58=Nan Bang Zi
+59=Ban Gu
+60=Ban
+61=Ban Gu Roll
+62=Chinese Opera Voice 1
+63=Chinese Opera Voice 2
+64=Chinese Opera Voice 3
+65=Yun Luo F4
+66=Yun Luo F#4
+67=Yun Luo G4
+68=Yun Luo G#4
+69=Yun Luo A4
+70=Yun Luo A#4
+71=Yun Luo B4
+72=Yun Luo C5
+73=Yun Luo C#5
+74=Yun Luo D5
+75=Yun Luo D#5
+76=Yun Luo E5
+77=Yun Luo F5
+78=Yun Luo F#5
+79=Yun Luo G5
+80=Yun Luo G#5
+81=Yun Luo A5
+82=Yun Luo A#5
+83=Yun Luo B5
+84=Yun Luo C6
+
+
+; -------------------------------------------------------------------------------------------
+;  S X 9 0 0   D R U M K I T S
+; -------------------------------------------------------------------------------------------
+
+[PSR-SX900 Live!Drums StandardKit1]
+13=Surdo Mute
+14=Surdo Open
+15=Hi Q
+16=Whip Slap
+17=Scratch H
+18=Scratch L
+19=Finger Snap
+20=Click Noise
+21=Metronome Click
+22=Metronome Bell
+23=Seq Click L
+24=Seq Click H
+25=Brush Tap
+26=Brush Swirl
+27=Brush Slap
+28=Brush Tap Swirl
+29=Snare Roll
+30=Castanet
+31=Snare Soft
+32=Sticks
+33=Kick Soft
+34=Open Rim Shot
+35=Kick Tight
+36=Kick
+37=Side Stick
+38=Snare
+39=Hand Clap
+40=Snare Tight
+41=Floor Tom L
+42=Hi-Hat Closed
+43=Floor Tom H
+44=Hi-Hat Pedal
+45=Low Tom
+46=Hi-Hat Open
+47=Mid Tom L
+48=Mid Tom H
+49=Crash Cymbal 1
+50=High Tom
+51=Ride Cymbal 1
+52=Chinese Cymbal
+53=Ride Cymbal Cup
+54=Tambourine
+55=Splash Cymbal
+56=Cowbell
+57=Crash Cymbal 2
+58=Vibraslap
+59=Ride Cymbal 2
+60=Bongo H
+61=Bongo L
+62=Conga H Mute
+63=Conga H Open
+64=Conga L
+65=Timbale H
+66=Timbale L
+67=Agogo H
+68=Agogo L
+69=Cabasa
+70=Maracas
+71=Samba Whistle H
+72=Samba Whistle L
+73=Guiro Short
+74=Guiro Long
+75=Claves
+76=Wood Block H
+77=Wood Block L
+78=Cuica Mute
+79=Cuica Open
+80=Triangle Mute
+81=Triangle Open
+82=Shaker
+83=Jingle Bell
+84=Bell Tree
+
+[PSR-SX900 Live!Drums StandardKit2]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Soft 2
+34=Open Rim Shot H Short
+36=Kick Short
+37=Side Stick Light
+38=Snare Short
+40=Snare tight H
+
+[PSR-SX900 Drums HitKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Electro
+33=Kick Tight L
+34=Snare Pitched
+35=Kick Wet
+36=Kick Tight Hard
+37=Stick Ambient
+38=Snare Ambient
+40=Snare Tight 2
+41=Hybrid Tom 1
+42=Hi-Hat Closed
+43=Hybrid Tom 2
+44=Hi-Hat Pedal 2
+45=Hybrid Tom 3
+46=Hi-Hat Open 2
+47=Hybrid Tom 4
+48=Hybrid Tom 5
+50=Hybrid Tom 6
+54=Tambourine Light
+
+[PSR-SX900 Drums RoomKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+38=Snare Snappy
+40=Snare Tight snappy
+41=Tom Room 1
+43=Tom Room 2
+45=Tom Room 3
+47=Tom Room 4
+48=Tom Room 5
+50=Tom Room 6
+
+[PSR-SX900 Drums RockKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Noisy
+35=Kick 2
+36=Kick Gate
+38=Snare Rock 
+40=Snare Rock Tight
+41=Rock Tom 1
+43=Rock Tom 2
+45=Rock Tom 3
+47=Rock Tom 4
+48=Rock Tom 5
+50=Rock Tom 6
+
+[PSR-SX900 Live!Drums RockDrumKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Hi-Hat Tip 00 RD
+14=Hi-Hat Edge 00 RD
+15=Hi-Hat Tip 10 RD
+16=Hi-Hat Edge 10 RD
+17=Hi-Hat Edge 25 RD
+18=Hi-Hat Edge 50 RD
+19=Hi-Hat Edge 75 RD
+20=Hi-Hat Edge 99 RD
+21=Hi-Hat Pedal Closed RD
+22=Hi-Hat Pedal Splash
+25=Snare Brush Mute Snappy Off Edge Pressed JB
+26=Snare 2 no-Rim RD
+27=Snare 4 no-Rim RD
+28=Snare 3 no-Rim RD
+29=Snare Roll RD
+30=Snare 2 RD
+31=Snare 4 RD
+32=Stick Count VO
+33=Kick 4 RD
+34=Snare 1 Open Rim RD
+35=Kick 2 RD
+36=Kick 1 RD
+37=Snare 1 Side-Stick RD
+38=Snare 1 RD
+39=Clap Power
+40=Snare 3 RD
+41=Tom RD 1
+42=Hi-Hat Edge 00 RD
+43=Tom RD 2
+44=Hi-Hat Pedal Closed RD
+45=Tom RD 3
+46=Hi-Hat Edge 75 RD
+47=Tom RD 4
+48=Tom RD 5
+49=Crash Cymbal RD 1
+50=Tom RD 6
+51=Ride Cymbal Tip RD
+52=China Cymbal RD
+53=Ride Cymbal Cup RD
+55=Splash Cymbal RD
+56=Cowbell RD
+57=Crash Cymbal RD 2
+59=Ride Cymbal Real 2
+84=Wind Chime
+
+[PSR-SX900 Drums ElectroKit1]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+28=Reverse Cymbal
+30=Hi Q 2
+31=Snare Snappy Electro
+33=Kick 3
+35=Kick Gate
+36=Kick Gate Heavy
+38=Snare Noisy 2
+40=Snare Noisy 3
+41=Tom Electro 1
+43=Tom Electro 2
+45=Tom Electro 3
+47=Tom Electro 4
+48=Tom Electro 5
+50=Tom Electro 6
+78=Scratch H 2
+79=Scratch L 2
+
+[PSR-SX900 Drums AnalogKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+28=Reverse Cymbal
+30=Hi Q 2
+31=Snare Noisy 4
+33=Kick 3
+35=Kick Analog Short
+36=Kick Analog 
+37=Side Stick Analog
+38=Snare Analog
+40=Snare Analog 2
+41=Tom Analog 1
+42=Hi-Hat Closed Analog
+43=Tom Analog 2
+44=Hi-Hat Closed Analog 2
+45=Tom Analog 3
+46=Hi-Hat Open Analog
+47=Tom Analog 4
+48=Tom Analog 5
+49=Crash Analog
+50=Analog Tom 6
+56=Cowbell Analog
+62=Conga Analog H
+63=Conga Analog M
+64=Conga Analog L
+70=Maracas 2
+75=Claves 2
+78=Scratch H 2
+79=Scratch L 2
+
+[PSR-SX900 Drums DanceKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Kick Dance 1
+14=Kick Dance 2
+17=Scratch Dance 1
+18=Scratch Dance 2
+21=Dance Perc 1
+22=Reverse Dance 1
+23=Dance Perc 2
+24=Hi Q Dance 1
+25=Snare Analog 3
+26=Vinyl Noise
+27=Snare Analog 4
+28=Reverse Cymbal
+29=Reverse Dance 2
+30=Hi Q 2
+31=Snare Techno 
+33=Kick Techno Q
+34=Rim Gate
+35=Kick Techno L
+36= Kick Techno 
+37=Side Stick Analog
+38=Snare Clap
+39=Dance Clap
+40=Snare dry
+41=Tom Dance 1
+42=Hi-Hat Closed 3
+43=Tom Dance 2
+44=Hi-Hat Closed Analog 3
+45=Tom Dance 3
+46=Hi-Hat Open 3
+47=Tom Dance 4
+48=Tom Dance 5
+49=Crash Analog
+50=Tom Dance 6
+54=Tambourine Analog
+56=Analog Cowbell Dance
+58=Vibraslap Analog
+59=Ride Analog
+60=Bongo Analog H
+61=Bongo ANalog L
+62=Conga Analog H
+63=Conga Analog M
+64=Conga Analog L
+70=Maracas 2
+75=Claves 2
+76=Dance Perc 3
+77=Dance Perc 4
+78=Dance Breath 1
+79=Dance Breath 2
+
+[PSR-SX900 Drums JazzKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Jazz H
+36=Kick Jazz
+37=Side Stick Light
+38=Snare Jazz L
+40=Snare Jazz M
+
+[PSR-SX900 Live!Drums BrushKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Brush Slap 2
+36=Kick Jazz
+37=SideStick Light
+38=Brush Slap 3
+40=Brush Tap 2
+41=Tom Brush 1
+43=Tom Brush 2
+45=Tom Brush 3
+47=Tom Brush 4
+48=Tom Brush 5
+50=Tom Brush 6
+
+[PSR-SX900 Live!Drums RealBrushesKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+23=Vintage Tip
+24=Vintage Swirl 1
+25=Vintage Slap 1
+26=Vintage Swirl 2
+27=Vintage Slap 2
+28=Vintage Tap Swirl
+29=Vintage Slap Swirl
+30=Vintage Swirl 3
+31=Vintage Slap 3
+33=Kick Soft L
+34=Open Rim Shot Real Brushes
+35=Kick Soft H
+36=Kick Jazz Ambience
+37=Side Stick Real Brushes
+38=Vintage Slap 4
+39=Clap Power
+40=Vintage Slap 5
+41=Tom Real Brushes 1
+42=Hi-Hat Closed Real Brushes
+43=Tom Real Brushes 2
+44=Hi-Hat Pedal Real Brushes
+45=Tom Real Brushes 3
+46=Hi-Hat Open Real Brushes
+47=Tom Real Brushes 4
+48=Tom Real Brushes 5
+49=Crash Cymbal Real Brushes 1
+50=Tom Real Brushes 6
+51=Ride Cymbal Real Brushes
+52=China Cymbal Real Brushes
+53=Ride Cup Real Brushes 1
+55=Splash Cymbal Real Brushes
+57=Crash Cymbal Real Brushes 2
+59=Ride Cup Real Brushes 2
+84=Wind Chime
+
+[PSR-SX900 Live!Drums SymphonyKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+33=Kick Soft 2
+35=Gran Cassa
+36=Gran Cassa Mute
+38=Band Snare
+40=Band Snare 2
+49=Hand Cymbal
+51=Hand Cymbal Short
+57=Hand Cymbal 2
+59=Hand Cymbal Short 2
+
+[PSR-SX900 Drums HipHopKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+19=Hi-Hat Closed T8 2
+20=Tom T8 3
+21=Hi-Hat Open T8 2
+22=Tom T8 6
+23=Crash T8
+24=Triangle Mute
+25=Triangle Open
+26=Wind Chime
+27=Tambourine Light 2
+28=Tambourine Light 1
+29=Kick HipHop 9
+30=Hi-Hat Closed Tek
+31=Kick Gate
+32=Hi-Hat Open Lo-Fi
+33= Kick Gran Casa Open
+34=Hi-Hat Reverse Drum&Bass
+35=Kick HipHop 1
+36=Kick Analog CR
+37=Snare Analog Sm Rim
+38=Snare HipHop 1
+39=Snare Clappy
+40=Snare HipHop 2
+42=Hi-Hat Closed HipHop
+43=Low Tom
+44=Hi-Hat Pedal HipHop
+45=Mid Tom L
+46=Hi-Hat Open HipHop
+47=High Tom
+48=Ride Cymbal 3
+49=Crash Cymbal 3
+50=Shaker 2
+51=Scratch Bass Drum Forward
+52=Scratch Bass Drum Reverse
+53=Kick HipHop 2
+54=Snare HipHop Rim 2
+55=HipHop Clap 2
+56=HipHop Snap 1
+57=Snare HipHop 3
+58=Electric Clap 2
+59=Kick Hip Deep
+60=Kick HipHop 3
+61=Snare HipHop Rim 3
+62=Snare HipHop 5
+63=Electric Clap 1
+64=Handbell H
+65=Kick HipHop 4
+66=HipHop Clap 3
+67=HipHop Snap 2
+68=Snare HipHop Rim 5
+69=HipHop Flex 1
+70=HipHop Flex 2
+71=Shaker 2
+72=Kick HipHop 5
+73=Snare HipHop Rim 4
+74=Snare HipHop 6
+75=Snare HipHop 11
+76=Kick HipHop 10
+77=Snare HipHop 7
+78=HipHop Clap 5
+79=Conga H Tip
+80=Conga H Heel
+81=Conga H Open
+82=Conga L Open 1
+83=Conga L Open 2
+84=Kick HipHop 8
+85=HipHop Clap 6
+86=Snare T8 1
+87=Snare T8 1 H
+88=HipHop Clap 7
+89=Tom T8 1
+90=Hi-Hat Closed T8 2
+91=Tom T8 2
+
+
+
+[PSR-SX900 Drums BreakKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+20=Snare Break 8
+21=Snare Break 9
+22=Hi-Hat Closed Break 1
+23=Hi-Hat Closed Break 2
+24=Kick Break Deep
+25=Snare Hip
+26=Snare Lo-Fi
+27=Snare Clappy
+28=Snare LdwH Mono
+29=Snare Rock Roll
+30=Snare Gate 1
+31=Snare Mid
+32=Snare Break Rim
+33=Kick Break Heavy
+34=Snare Hip Rim 4
+35=Kick Break 2
+36=Kick Break 1
+37=Snare Hip Rim 1
+38=Snare Break 3
+39=Snare Break 1
+40=Snare Break 2
+41=Tom Break 1
+42=Hi-Hat Closed Rock Soft
+43=Tom Break 2
+44=Hi-Hat Pedal Rock
+45=Tom Break 3
+46=Hi-Hat Half Open Rock
+47=Tom Break 4
+48=Tom Break 5
+50=Tom Break 6
+51=Ride Cymbal 3
+52=China Cymbal 2
+53=Ride Cymbal Cup 2
+54=Tambourine 1 Hit
+55=Splash Cymbal 2
+56=Cowbell 1
+58=Cowbell RX11
+62=Conga H Tip
+63=Conga H Open Slap
+64=Conga H Open
+65=Bongo 2 H
+66=Bongo 2 L
+67=Conga Open
+70=Maracas Slur
+71=Timbale H
+72=Timbale L
+73=Scratch H 3
+74=Scratch Down
+78=Scratch H 2
+79=Scratch L 2
+82=Kick Break 3
+83=Kick Break 4
+84=Kick Break 5
+85=Kick Break 6
+86=Kick Break 7
+87=Hi-Hat Closed Break 3
+88=Snare Break 4
+89=Snare Break 5
+90=Snare Break 6
+91=Snare Break 7
+
+[PSR-SX900 Drums AnalogT8Kit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+19=Snare Hammer
+20=Kick Zap Hard
+21=Snare Garg L
+22=Kick Tek Power
+23=Kick Slimy
+24=Kick T8 4
+25=Snare Analog CR
+26=Snare T8 7
+27=Snare Clap Analog
+28=Snare T8 6
+29=Tom T8 5
+30=Snare T8 5
+31=Kick T8 3
+32=Snare T8 4
+33=Kick T8 2
+34=Snare T8 3
+35=T8 Kick Bass
+36=Kick T8 1
+37=Snare T8 Rim
+38=Snare T8 2
+39=Clap T9
+40=Snare T8 1
+41=Tom T8 1
+42=Hi-Hat Closed T8
+43=Tom T8 2
+44=Hi-Hat Pedal T8
+45=Tom T8 3
+46=Hi-Hat Open T8
+47=Tom T8 4
+48=Tom T8 6
+49=Crash Cymbal T8
+50=Tom T8 7
+51=Ride Cymbal T9
+52=China Cymbal 2
+53=Ride Cymbal Cup 2
+54=Tambourine RX5
+56=Cowbell T8
+57=Crash Cymbal 4
+59=Ride Cymbal 3
+60=Conga T8 5
+61=Conga T8 4
+62=Conga T8 3
+63=Conga T8 2
+64=Conga T8 1
+67=Glass H
+68=Glass L
+70=Maracas T8
+71=Fx Gun 2
+72=Fx Gun 1
+73=Analog Shaker H
+74=Analog Shaker L
+75=Claves T8
+76=Hi Q 1
+77=Hi Q 2
+78=Scratch H 2
+79=Scratch L 2
+82=Analog Shaker
+83=Sleigh Bells
+84=Wind Chime
+85=Snare Hip 1
+86=Snare Hip 2
+87=Snare Hip Gate
+88=Snare Break 1
+89=Kick Blip
+90=Snare Fx 1
+91=Kick Fx Hammer
+
+[PSR-SX900 Drums AnalogT9Kit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+19=Snare Drum&Bass 1
+20=Hard Kick Break 2
+21=Snare Distortion
+22=Kick Tek Power
+23=Kick Distortion RM
+24=Kick T9 2
+25=Snare Analog CR
+26=Snare T9 5
+27=Clap Analog Sm
+28=Snare T9 Gate 1
+29=Snare Rock Roll
+30=Snare T9 3
+31=Snare T9 4
+32=Snare T9 Gate 2
+33=Kick T9 4
+34=Snare T9 6
+35=Kick T9 1
+36=Kick T9 3
+37=Snare T9 Rim
+38=Snare T9 1
+39=Clap T9
+40=Snare T9 2
+41=Tom T9 1
+42=Hi-Hat Closed T9
+43=Tom T9 2
+44=Hi-Hat Pedal T9
+45=Tom T9 3
+46=Hi-Hat Open T9
+47=Tom T9 4
+48=Tom T9 5
+49=Crash Cymbal T9
+50=Tom T9 6
+51=Ride Cymbal T9
+52=China Cymbal 2
+53=Ride Cymbal Cup 2
+54=Tambourine RX5
+55=Splash Cymbal 2
+56=Cowbell 1
+57=Crash Cymbal 4
+58=Cowbell T8
+59=Ride Cymbal 3
+60=Conga T8 5
+61=Conga T8 4
+62=Conga Tip
+63=Conga Open Slap
+64=Conga Open
+67=Analog Click
+68=Conga T8 1
+70=Maracas Slur 2
+71=Fx Gun 2
+72=Fx Gun 1
+73=Scratch H 3
+74=Scratch Down
+75=Hi Q 3
+76=Hi Q 1
+77=Hi Q 2
+78=Scratch H 2
+79=Scratch L 2
+82=Analog Shaker
+84=Wind Chime
+85=Snare Piccolo
+86=Snare T8 7
+87=SnareRckRollDist
+88=Snare Brush Mute
+89=Kick Blip Hard
+90=Snare Jungle 1
+91=Kick Sustain
+
+
+[PSR-SX900 Drums HouseKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=W Kick
+14=Disco Fx
+15=White Noise Down 1
+16=Pink Noise Down 1
+17=White Noise Down 2
+18=Pink Noise Down 2
+19=White Noise Up 2
+20=White Noise Up 1
+21=Pink Noise Up
+22=White Noise Up Release
+23=Pink Noise Up Release
+24=Kick T9 4
+25=Snare T8 Rim
+26=Snare T8 5
+27=Hand Clap
+28=Snare Garg L
+29=Snare Roll
+30=Snare T9 3
+31=Snare T8 1
+3=Snare T9 5
+33=Kick T9 1
+34=Snare T9 Gate
+35=Kick T9 2
+36=Kick T9 5
+37=Snare T9 Rim
+38=Snare T9 1
+39=Clap T9
+40=Snare T9 2
+41=Tom T9 1
+42=Hi-Hat Closed T8
+43=Tom T9 2
+44=Hi-Hat Pedal T9
+45=Tom T9 3
+46=Hi-Hat Open T9
+47=Tom T9 4
+48=Tom T9 5
+49=Crash Cymbal T9
+50=Tom T9 6
+51=Ride Cymbal T9
+52=Crash Cymbal 4
+53=Ride Cymbal Cup 2
+54=Tambourine Hit
+55=Splash Cymbal 2
+56=Cowbell 1
+58=Cowbell T8
+59=Ride Cymbal 3
+60=Bongo H Open One Finger
+61=Bongo L Open Three Finger
+62=Conga H Tip
+63=Conga H Slap Open
+64=Conga H Open 2
+70=Maracas Slur 2
+71=Vox Drum L
+72=Vox Drum H
+78=Cuica H
+79=Cuica L
+82=Analog Shaker
+84=Wind Chime
+85=Snare Break Roll
+86=Noise Burst
+87=Vox Bell
+88=Snare R&B 1
+89=Vox Alk
+90=Udu High
+91=Filter Kick
+
+
+[PSR-SX900 Drums DrumMachine]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+19=Snare Drum&Bass
+20=Kick Break 2
+21=Snare Distortion
+22=Kick Tek Power
+23=Kick Distortion RM
+24=Bass Drum Hard Long
+25=Bass Drum Tek Power 
+26=Bass Drum Distortion 5
+27=Bass Drum Distortion 3
+28=Bass Drum Distortion 1
+29=Bass Drum Drum&Bass 1 
+30=Bass Drum Blip
+31=Bass Drum Analog Sm
+32=Kick T8 2
+33=Kick T8 3
+34=Kick T9 HD 3
+35=Kick T9 2
+36=Kick T9 4
+37=Snare T9 Rim
+38=Snare T9 1
+39=Clap T9
+40=Snare T9 4
+41=Tom T9 1
+42=Hi-Hat Closed T9
+43=Tom T9 2
+44=Hi-Hat Pedal T9
+45=Tom T9 3
+46=Hi-Hat Open T9
+47=Tom T9 4
+48=Tom T9 5
+49=Crash Cymbal T9
+50=Conga T8 1
+51=Ride Cymbal T9
+52=Conga T8 2
+53=Analog Click
+54=Claves T8 1
+55=Maracas T8
+56=Tambourine Analog CR
+57=Analog Shaker
+58=Cowbell T8
+59=Cowbell Analog CR
+60=Snare T8 1
+61=Snare T8 2
+62=Snare T8 3
+63=Snare Analog CR
+64=Snare Jungle 1
+65=Snare Drum&Bass 2
+66=Snare Hip 1
+67=Snare R&B 1
+68=Snare R&B 2
+69=Snare Hip 1
+70=Snare Wood
+71=Snare Timbre
+72=Hi-Hat Closed T8 1
+73=Hi-Hat Open T8 1
+74=Hi-Hat Closed T8 2
+75=Hi-Hat Open T8 2
+76=Hi-Hat Pedal Acoustic 
+77=Hi-Hat Closed Acoustic
+78=Hi-Hat Open Acoustic
+79=Hi-Hat Closed Lo-Fi
+80=Hi-Hat Open Lo-Fi
+81=Hi-Hat Closed Syn
+82=Hi-Hat Open Syn
+83=Analog Shaker 2
+84=Tambourine RX5 2
+85=Tambourine 1 Hit
+86=Electric Cowbell
+87=Conga T8 3
+88=Electric Triangle
+89=Claves T8 2
+90=Analog Shaker 3
+91=Electric Clap 1
+
+
+[PSR-SX900 Drums 80sPopKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Hi-Hat 2 Closed 81P
+14=Hi-Hat 2 Open 81P
+15=Hi-Hat 3 Closed 81P
+16=Hi-Hat 3 Open 81P
+17=Hi-Hat 1 Closed 83P
+18=Hi-Hat 1 Open 83P
+19=Clap 1 83P
+20=Clap 4 81P
+21=Metronome 2 83P
+22=Metronome 1 83P
+23=Side Stick 1 83P
+24=Kick 2 83P
+25=Side Stick 3 82P
+26=Clap 1 82P
+27=Clap 2 81P
+28=Side Stick 4 81P
+29=Side Stick 2 81P
+30=Snare 4 81P
+31=Snare 3 81P
+32=Snare 1 83P
+33=Kick 2 81P
+34=Snare 2 83P
+35=Kick 1 83P
+36=Kick 1 82P
+37=Side Stick 1 82P
+38=Snare 2 82P
+39=Clap 1 Pitch Up 82P
+40=Snare 1 82P
+41=Tom A6 82P
+42=Hi-Hat 1 Closed 82P
+43=Tom A5 82P
+44=Hi-Hat 1 Pedal 82P
+45=Tom A4 82P
+46=Hi-Hat 1 Open 82P
+47=Tom A3 82P
+48=Tom A2 82P
+49=Crash Cymbal PD 1
+50=Tom A1 82P
+51=Ride 1 82P
+52=China Cymbal 82P
+53=Ride Bell 82P
+54=Tambourine 82P
+55=Splash Cymbal 82P
+56=Cowbell 82P
+57=Crash Cymbal PD 2
+58=Cowbell T8
+59=Ride 2 82P
+60=Bongo H 82P
+61=Bongo L 82P
+62=Conga Mute 82P
+63=Conga H 82P
+64=Conga L 82P
+67=Agogo H 82P
+68=Agogo L 82P
+69=Cabasa 82P
+70=Tom B5 83P
+71=Tom B4 83P
+72=Tom B3 83P
+73=Tom B2 83P
+74=Tom B1 83P
+75=Claves 83P
+76=Tom A6 81P
+77=Tom A5 81P
+78=Tom A4 81P
+79=Tom A3 81P
+80=Tom A2 81P
+81=Tom A1 81P
+82=Cabasa 81P
+84=Wind Chime
+85=Tom B6 80P
+86=Tom B5 80P
+87=Tom B4 80P
+88=Tom B3 80P
+89=Tom B2 80P
+90=Tom B1 80P
+
+
+[PSR-SX900 Drums 80sR&B Kit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Hi-Hat 3 Closed 80R
+14=Hi-Hat 3 Open 80R
+15=Hi-Hat 1 Closed 80R
+16=Hi-Hat 1 Open 80R
+17=Hi-Hat 3 Closed 81R
+18=Hi-Hat 3 Open 81R
+19=Hi-Hat 1 Closed 81R
+20=Hi-Hat 1 Open 81R
+21=Metronome 2 81R
+22=Metronome 1 81R
+23=Side Stick 5 81R
+24=Kick 4 81R
+25=Side Stick 2 81R
+26=Clap 5 81R
+27=Clap 2 81R
+28=Clap 3 80R
+29=Side Stick 5 80R
+30=Clap 5 80R
+31=Snare 4 81R
+32=Side Stick 4 80R
+33=Kick 2 81R
+34=Snare 3 81R
+35=Kick 2 80R
+36=Kick 1 80R
+37=Side Stick 1 80R
+38=Snare 3 80RS
+39=Clap 2 80R
+40=Snare 2 80R
+41=Tom A6 81R
+42=Hi-Hat 2 Closed 81R
+43=Tom A5 81R
+44=Hi-Hat 2 Pedal 81R
+45=Tom A4 81R
+46=Hi-Hat 2 Open 81R
+47=Tom A3 81R
+48=Tom A2 81R
+49=Crash Cymbal 1 81R
+50=Tom A1 81R
+51=Ride 1 81R
+52=China Cymbal 81R
+53=Ride Bell 80R
+54=Tambourine 80R
+55=Splash Cymbal 80R
+56=Cowbell 80R
+57=Crash Cymbal 2 81R
+59=Crash Cymbal RD 1
+60=Bongo H 80R
+61=Bongo L 80R
+62=Conga Mute 80R
+63=Conga H 80R
+64=Conga L 80R
+67=Agogo H 80R
+68=Agogo L 80R
+69=Cabasa 80R
+70=Tom T8 1
+71=Tom T8 2
+72=Tom T8 3
+73=Tom T8 4
+74=Tom T8 6
+75=Claves T8
+76=Tom A6 80R
+77=Tom A5 80R
+78=Tom A4 80R
+79=Tom A3 80R
+80=Tom A2 80R
+81=Tom A1 80R
+82=Cabasa 81R
+
+[PSR-SX900 Drums DubstepKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Kick 4 DS
+14=Kick 5 DS
+15=Digital DS
+16=Pink Noise Down 1
+17=White Noise Down 2
+18=Pink Noise Down 2
+19=Boomer DS
+20=Synth Scratch DS
+21=Bouncer DS
+22=Tin Cowbell DS
+23=Reverse Flanger Snare DS
+24=Kick 13 DS
+25=Snare 3 DS
+26=Clap 4 DS
+27=Snare 4 DS
+28=Snare 11 DS
+29=Snare 5 DS
+30=Snare T9 3
+31=Snare 6 DS
+32=Clap 3 DS
+33=Kick 2 DS
+34=nClap 2 DS
+35=Kick 3 DS
+36=Kick 1 DS
+37=Rim Shot 1 DS
+38=Snare 1 DS
+39=Clap 1 DS
+40=Snare 2 DS
+41=Tom T9 1
+42=Hi-Hat Closed 1 DS
+43=Tom T9 2
+44=Hi-Hat Pedal 1 DS
+45=Tom T9 3
+46=Hi-Hat Open 1 DS
+47=Tom T9 4
+48=Tom T9 5
+49=Crash Cymbal T9
+50=Tom T9 6
+51=Ride Cymbal T9
+52=Crash Cymbal 4
+53=Ride Cymbal Cup 2
+54=Tambourine 82P
+55=Splash Cymbal 2
+56=Cowbell 82P
+58=Cowbell T8
+59=Ride Cymbal 3
+60=Bongo H 82P
+61=Bongo L 82P
+62=Conga Mute 82P
+63=Conga H 82P
+64=Conga L 82P
+67=Cowbell Hi Pitch 82P
+68=Cowbell Middle Pitch 82P
+69=Cabasa 81P
+70=Maracas Slur 2
+71=Vox Drum L
+72=Vox Drum H
+75=Claves 83P
+78=Hi-Hat Closed 4 DS
+79=Hi-Hat Closed 5 DS
+82=Hi-Hat Open 3 DS
+83=Kick 6 DS
+84=Kick 7 DS
+85=Kick 8 DS
+86=Kick 10 DS
+87=Snare 7 DS
+88=Snare 8 DS
+89=Snare 9 DS
+90=Snare 10 DS
+91=Filter Kick
+
+[PSR-SX900 Drums EDM Kit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Kick 3
+14=Kick 4 EDM
+15=Glitch 4 EDM
+16=Snare 12 EDM
+17=Snare 3 EDM
+18=Snare 4 EDM
+19=White Noise Up 2
+20=Glitch 3 EDM
+21=Bump EDM
+22=Reverse Shot EDM
+23=Glitch 5 EDM
+24=Kick 15 EDM
+25=Snare 7 EDM
+26=Snare 14 EDM
+27=Snare 5 EDM
+28=Snare 15 EDM
+29=Reverse Hit EDM
+30=Snare 17 EDM
+31=Snare 2 EDM
+32=Snare 1 EDM
+33=Kick 8 EDM
+34=Snare 16 EDM
+35=Kick 5 EDM
+36=Kick 16 EDM
+37=Thump EDM
+38=Snare 9 EDM
+39=Clap 1 EDM
+40=Snare 10 EDM
+41=Tom B6 8P
+42=Hi-Hat Closed EDM
+43=Tom B5 8P
+44=Hi-Hat Shank EDM
+45=Tom B4 8P
+46=Hi-Hat Open EDM
+47=Tom B3 8P
+48=Tom B2 8P
+49=Crash Cymbal T9
+50=Tom B1 8P
+51=Ride Shank EDM
+52=Crash Cymbal 4
+53=Ride Cymbal Cup 2
+54=Tambourine Hit
+55=Splash Cymbal 2
+56=Cowbell 1
+58=Cowbell T8
+59=Ride Cymbal 3
+60=Bongo H Open One Finger
+61=Bongo L Open Three Finger
+62=Conga H Tip
+63=Conga H Slap Open
+64=Conga H Open 2
+70=Maracas Slur 2
+71=Vox Drum L
+72=Vox Drum H
+76=Clap 2 EDM
+77=Clap 3 EDM
+78=Hi-Hat Closed 3 EDM
+79=Hi-Hat Open 2 EDM
+80=Hi-Hat Closed 1 EDM
+81=Hi-Hat Closed 2 EDM
+82=Kick 6 EDM
+83=Kick 9 EDM
+84=Kick 10 EDM
+85=Kick 11 EDM
+86=Fill Tom EDM
+87=Fill Snare EDM
+88=Snare 8 EDM
+89=Snare 13 EDM
+90=Impact Lo EDM
+91=Impact Hi EDM
+
+
+[PSR-SX900 Drums ElectroKit2]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Kick 7 EK
+14=Kick 8 EK
+15=SFX 13 EK
+16=SFX 14 EK
+17=Kick 5 EK
+18=Kick 6 EK
+19=SFX 12 EK
+20=SFX 11 EK
+21=SFX 10 EK
+22=SFX 9 EK
+23=SFX 8 EK
+24=Kick 2 EK
+25=Snare 2 EK
+26=Snare 3 EK
+27=Clap 6 EK
+28=Snare 1 EK
+29=Snare 4 EK
+30=Snare 10 EK
+31=Snare 5 EK
+32=Clap 5 EK
+33=Kick 14 EK
+34=Clap 2 EK
+35=Kick 1 EK
+36=Kick 10 EK
+37=Rim Shot 1 EK
+38=Snare 9 EK
+39=Clap 1 EK
+40=Snare T9 1
+41=Tom 1 EK
+42=Hi-Hat Closed 1 EK
+43=Tom 2 EK
+44=Hi-Hat Closed 2 EK
+45=Tom 3 EK
+46=Hi-Hat Open 4 EK
+47=Tom 4 EK
+48=Tom 5 EK
+49=Crash Cymbal T9
+50=Tom 6 EK
+51=Ride Cymbal T9
+52=Crash Cymbal 4
+53=Ride Cymbal Cup 2
+54=Tambourine 82P
+55=Splash Cymbal 2
+56=Cowbell 80R
+58=Cowbell T8
+59=Ride Cymbal 3
+60=Bongo H 80R
+61=Bongo L 80R
+62=Conga Mute 80R
+63=Conga H 80R
+64=Conga L 80R
+67=Agogo H 80R
+68=Agogo L 80R
+69=Cabasa 80R
+70=Cabasa 81R
+71=Vox Drum L
+72=Vox Drum H
+73=SFX 5 EK
+74=SFX 4 EK
+75=SFX 1 EK
+76=SFX 2 EK
+77=SFX 3 EK
+78=Clap 8 EK
+79=Clap 4 EK
+80=Hi-Hat Open 1 EK
+81=Hi-Hat Open 2 EK
+82=Hi-Hat Open 5 EK
+83=Kick 9 EK
+84=Kick 13 EK
+85=Kick 16 EK
+86=Kick 12 EK
+87=Snare 6 EK
+88=Snare 8 EK
+89=Snare 11 EK
+90=Snare 7 EK
+91=Filter Kick
+
+[PSR-SX900 Drums TrapKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Kick 5 TP
+14=Kick 6 TP
+15=White Noise Down 1
+16=Pink Noise Down 1
+17=White Noise Down 2
+18=Pink Noise Down 2
+19=Finger Snap 1 TP
+20=Finger Snap 2 TP
+21=SFX 1 TP
+22=SFX 2 TP 
+23=SFX 3 TP
+24=Kick 11 TP
+25=Snare 4 TP
+26=Clap 1 TP
+27=Clap 1 83P
+28=Snare 5 TP
+29=Snare 6 TP
+30=Snare T9 3
+31=Snare 3 TP
+32=Clap 2 TP
+33=Kick 2 TP
+34=Clap 3 TP
+35=Kick 1 TP
+36=Kick 4 TP
+37=Rim Shot 1 TP
+38=Snare 1 TP
+39=Clap 5 TP
+40=Snare 2 TP
+41=Tom 1 TP
+42=Hi-Hat Closed 4 TP
+43=Tom 2 TP
+44=Hi-Hat Closed 5 TP
+45=Tom 3 TP
+46=Hi-Hat Open 1 TP
+47=Tom 4 TP
+48=Tom 5 TP
+49=Crash Cymbal T9
+50=Tom 6 TP
+51=Ride Cymbal T9
+52=Crash Cymbal 4
+53=Ride Cymbal Cup 2
+54=Tambourine Hit
+55=Splash Cymbal 2
+56=Cowbell 1 TP
+58=Cowbell T8
+59=Ride Cymbal 3
+60=Bongo H Open One Finger
+61=Bongo L Open Three Finger
+62=Conga H Tip
+63=Conga H Slap Open
+64=Conga H Open 2
+70=Maracas Slur 2
+71=Vox Drum L
+72=Vox Drum H
+75=Cowbell 2 TP
+78=Hi-Hat Closed 1 TP
+79=Hi-Hat Closed 2 TP
+82=Hi-Hat Open 5 TP
+83=Kick 7 TP
+84=Kick 8 TP
+85=Kick 9 TP
+86=Kick 10 TP
+87=Snare 7 TP
+88=Snare 8 TP
+89=Snare 9 TP
+90=Snare 10 TP
+91=Clap 4 TP
+
+[PSR-SX900 Drums SchlagerKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Loop Element 1a SC
+14=Loop Element 1b SC
+15=Loop Element 1c SC
+16=Loop Element 1d SC
+17=Loop Element 1e SC
+18=Loop Element 1f SC
+19=Loop Element 1g SC
+20=Loop Element 1h SC
+21=Loop Element 1i SC
+22=Loop Element 1f SC
+23=Noise Up 1 SC
+24=Kick TB SC
+25=Loop Element 2a SC
+26=Loop Element 2b SC
+27=Loop Element 2c SC
+28=Loop Element 2d SC
+29=Loop Element 2h SC
+30=Loop Element 2i SC
+31=Snare 1 SC
+32=Snare 1 83P
+33=Kick 2 81P
+34=Snare 4 SC
+35=Kick 2 SC
+36=Kick 1 SC
+37=Side Stick Power
+38=Snare 2 SC
+39=Snare 3 SC
+40=Snare 6 SC
+41=Tom 1 SC
+42=Hi-Hat Closed 1 SC
+43=Tom 2 SC
+44=Hi-Hat Closed 2 SC
+45=Tom 3 SC
+46=Hi-Hat Open 1 SC
+47=Tom 4 SC
+48=Tom 5 SC
+49=Crash Cymbal 1 SC
+50=Tom 6 Hi SC
+51=Ride Cymbal Acoustic 1
+52=Impact 6 SC
+53=Crash Impact SC
+55=Crash Cymbal 2 SC
+56=Cowbell 1
+57=Crash Cymbal 3 SC
+58=Snare 5 SC
+59=Snare 7 SC
+60=Snare 8 SC
+61=Snare 9 SC
+62=Snare 10 SC
+63=Clap 7 SC
+64=Clap 1 SC
+65=Clap 2 SC
+66=Clap 3 SFX SC
+67=Clap 6 SC
+68=Clap 5 SFX SC
+69=Shaker 4 SC
+70=Shaker 3 SC
+71=Clap 8 SC
+72=Echo Shot 1 SC
+73=Echo Shot 2 SC
+74=Echo Shot 3 SC
+75=Echo Shot 4 SC
+76=Hi-Hat Closed 3 SC
+77=Hi-Hat Closed 4 SC
+78=Hi-Hat Closed 5 SC
+79=Hi-Hat Open 2 SC
+80=Shaker 1 SC
+81=Shaker 2 SC
+82=Shaker 6 SC
+83=Shaker 5 SC
+84=Reverse 1 SC
+85=Reverse 3 SC
+86=Reverse Snare 1 SC
+87=Long Snare SC
+88=LpDr Kick SC
+89=LpDr Hi-Hat 1 SC
+90=LpDr Snare SC
+91=LpDr Hi-Hat 2 SC
+
+[PSR-SX900 Live!Drums PopDrumKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+13=Hi-Hat Tip 00 PD
+14=Hi-Hat Edge 00 PD
+15=Hi-Hat Tip 10 PD
+16=Hi-Hat Edge 10 PD
+17=Hi-Hat Edge 25 PD
+18=Hi-Hat Edge 50 PD
+19=Hi-Hat Edge 75 PD
+20=Hi-Hat Edge 99 PD
+21=Hi-Hat Pedal Closed PD
+22=Hi-Hat Pedal Splash
+25=Snare Brush Mute Snappy Off Edge Pressed JB
+26=Snare 5 no-Rim PD
+27=Snare 4 no-Rim PD
+28=Snare 2 no-Rim PD
+29=Snare Roll PD
+30=Snare 5 PD
+31=Snare 4 PD
+32=Stick Count VO
+33=Kick 4 PD
+34=Snare 2 Open Rim PD
+35=Kick 2 PD
+36=Kick 1 PD
+37=Snare 1 Side-Stick PD
+38=Snare 1 PD
+39=Clap Power
+40=Snare 2 PD
+41=Tom PD 1
+42=Hi-Hat Edge 00 PD
+43=Tom PD 2
+44=Hi-Hat Pedal Closed PD
+45=Tom PD 3
+46=Hi-Hat Edge 75 PD
+47=Tom PD 4
+48=Tom PD 5
+49=Crash Cymbal PD 1
+50=Tom PD 6
+51=Ride Cymbal Tip PD
+52=China Cymbal PD
+53=Ride Cymbal Cup PD
+55=Splash Cymbal PD
+56=Cowbell 1 JB
+57=Crash Cymbal PD 2
+59=Ride Cymbal Real 2
+84=Wind Chime
+
+[PSR-SX900 Live!Drums JazzBrushKitComp]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+23=Snare Brush Linear Sweep Short L/R JC
+24=Snare Brush Linear Sweep Long L/R JC
+25=Snare Brush Snappy Off Edge Pressed JB
+26=Snare Brush Swirl Loop 1 JB
+27=Snare Brush Pressed JB
+28=Snare Brush Swirl Loop 2 with Attack JC
+29=Snare Brush Swirl Loop 1 with Attack JC
+30=Snare Brush Dynamic Sweep Long - Short JC
+31=Snare Brush Pressed Low Range JC
+32=Stick Count VO
+33=Kick 5 VM
+34=Snare Brush Mute only Shaft JC
+35=Kick 2 JB
+36=Kick 3 JB
+37=Snare 2 Side-Stick JS
+38=Snare Brush Mute with Shaft JB
+39=Clap Power
+40=Snare Brush with Shaft JB
+41=Tom JB 1
+42=Hi-Hat Center 00 JB
+43=Tom JB 2
+44=Hi-Hat Pedal Closed JB
+45=Tom JB 3
+46=Hi-Hat Edge 75 JB
+47=Tom JB 4
+48=Tom JB 5
+49=Crash Cymbal JB 1
+50=Tom JB 6
+51=Ride Cymbal Tip JB
+52=China Cymbal Real Brushes
+53=Ride Cymbal Cup JB
+55=Splash Cymbal JB
+56=Cowbell 1 JB
+57=Crash Cymbal JB 2
+59=Ride Backend JB
+84=Wind Chime
+
+[PSR-SX900 Live!Drums StudioKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Studio 2
+33=Kick Ambience H
+35=Kick Ambience L
+36=Kick Studio
+38=Snare Studio M
+40=Snare Studio L
+
+[PSR-SX900 Live!Drums PowerKit1]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Soft Power 1
+33=Kick Ambient+  
+34=Open Rim Power 1
+35=Kick Power Open 
+36=Kick Power Closed 
+37=Side Stick Power 
+38=Snare Power 1
+39=Hand Clap Power 
+40=Snare Rough  
+41=Tom Power 1 
+42=Hi-Hat Closed Power 
+43=Tom Power 2 
+44=Hi-Hat Pedal Power 
+45=Tom Power 3 
+46=Hi-Hat Open Power 
+47=Tom Power 4 
+48=Tom Power 5 
+49=Crash Cymbal Accoustic 1
+50=Tom Power 6 
+51=Ride Cymbal Acoustic 1
+52=China Cymbal Acoustic
+53=Ride Cymbal Cup Acoustic
+55=Splash Cymbal Acoustic
+57=Crash Cymbal Acoustic 2
+59=Ride Cymbal Acoustic 2
+84=Wind Chime
+
+[PSR-SX900 Live!Drums PowerKit2]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+31=Snare Soft Power 2
+33=Kick Ambient+  
+34=Open Rim Power 2
+35=Kick Power Open 
+36=Kick Power Closed 
+37=Side Stick Power 
+38=Snare Power 2
+39=Hand Clap Power 
+40=Snare Rough  
+41=Tom Power 1 
+42=Hi-Hat Closed Power 
+43=Tom Power 2 
+44=Hi-Hat Pedal Power 
+45=Tom Power 3 
+46=Hi-Hat Open Power 
+47=Tom Power 4 
+48=Tom Power 5 
+49=Crash Cymbal Acoustic 1
+50=Tom Power 6 
+51=Ride Cymbal Acoustic 1
+52=China Cymbal Acoustic
+53=Ride Cymbal Cup Acoustic
+55=Splash Cymbal Acoustic
+57=Crash Cymbal Acoustic 2
+59=Ride Cymbal Acoustic 2
+84=Wind Chime
+
+
+[PSR-SX900 Live!Drums AcousticKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+29=Snare Roll Acoustic
+31=Snare Soft Acoustic
+33=Kick Soft Acoustic
+34=Open Rim Acoustic
+35=Kick Mute Acoustic
+36=Kick Open Acoustic
+37=Stick Acoustic 
+38=Snare Acoustic
+39=Hand Clap Power 
+40=Snare Rough Acoustic 
+41=Tom Acoustic 1 
+42=Hi-Hat Closed Acoustic
+43=Tom Acoustic 2 
+44=Hi-Hat Pedal Acoustic 
+45=Tom Acoustic 3 
+46=Hi-Hat Open Acoustic 
+47=Tom Acoustic 4 
+48=Tom Acoustic 5 
+49=Crash Cymbal Acoustic 1
+50=Tom Acoustic 6 
+51=Ride Cymbal Acoustic 1
+52=China Cymbal Acoustic
+53=Ride Cymbal Cup Acoustic
+55=Splash Cymbal Acoustic
+57=Crash Cymbal Acoustic 2
+59=Ride Cymbal Acoustic 2
+84=Wind Chime
+
+[PSR-SX900 Live!Drums RockKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+29=Snare Roll Rock
+31=Snare Soft Rock
+33=Kick Soft Rock
+34=Rim Rock
+35=Kick Rock Heavy
+36=Kick Rock
+37=Stick Rock
+38=Snare Rock
+39=Hand Clap Power
+40=Snare Dry Rock
+41=Tom Rock 1
+42=Hi-Hat Closed Rock
+43=Tom Rock 2
+44=Hi-Hat Pedal Rock
+45=Tom Rock 3
+46=Hi-Hat Open Rock
+47=Tom Rock 4
+48=Tom Rock 5
+49=Crash Cymbal Acoustic 1
+50=Tom Rock 6
+51=Ride Cymbal Acoustic 1
+52=China Cymbal Acoustic
+53=Ride Cymbal Cup Acoustic
+55=Splash Cymbal Acoustic
+57=Crash Cymbal Acoustic 2
+59=Ride Cymbal Acoustic 2
+84=Wind Chime
+
+[PSR-SX900 Live!Drums RealDrumKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+26=Brush Tap Swirl
+29=Snare Roll Rock
+31=Snare Tight
+33=Kick Genuine
+34=Rim Real
+35=HKick Real 1
+36=Kick Real 2
+37=Stick Real
+38=Snare Real 1
+39=Clap Power
+40=Snare Real 2
+41=Tom Real 1
+42=Hi-Hat Closed Real
+43=Tom Real 2
+44=Hi-Hat Pedal Real
+45=Tom Real 3
+46=Hi-Hat Open Real
+47=Tom Real 4
+48=Tom Real 5
+49=Crash Cymbal Real 1
+50=Tom Real 6
+51=Ride Cymbal Real 1
+52=China Cymbal Real
+53=Ride Cymbal Cup Real
+55=Splash Cymbal Real
+57=Crash Cymbal Real 2
+59=Ride Cymbal Real 2
+84=Wind Chime
+
+[PSR-SX900 SFX ChineseMixKit]
+BasedOn=PSR-SX900 Live!Drums StandardKit1
+52=China Cymbal
+67=Dagu Mute
+68=Zhongcha Mute
+69=Dagu Heavy
+70=Zhongcha Open
+71=Paigu Middle
+72=Paigu Low
+73=Xiaocha Mute
+74=Bangu
+75=Xiaocha Open
+76=Bangzi
+77=Muyu Low
+78=hongluo Mute
+79=Muyu Mid-Low
+80=Zhongluo Open
+81=Muyu Middle
+82=Xiaoluo Open
+83=Muyu Mid-High
+84=Muyu High
+
+
+
+; *******************************************************************************************
+.Controller Names
+; *******************************************************************************************
+
+[PSR-SX900 Controllers]
+0=Bank Select MSB
+1=Modulation
+5=Portamento Time
+6=Data Entry MSB
+7=Master Volume
+10=Panpot
+11=Expression
+32=Bank Select LSB
+38=Data Entry LSB
+64=Sustain
+65=Portamento
+66=Sostenuto
+67=Soft Pedal
+71=Harmonic Content
+72=Release Time
+73=Attack Time
+74=Brightness
+84=Portamento Control
+91=Reverb Send Level
+93=Chorus Send Level
+94=Variation Send Level
+96=RPN Increment
+97=RPN Decrement
+98=NRPN LSB
+99=NRPN MSB
+100=RPN LSB
+101=RPN MSB
+120=All Sound Off
+121=Reset All Controllers
+123=All Notes Off
+124=OMNI Off
+125=OMNI On
+126=Mono
+127=Poly
+
+; *******************************************************************************************
+.Instrument Definitions
+; *******************************************************************************************
+
+[PSR-SX900]
+Control=PSR-SX900 Controllers
+
+; ----------------------------------------------------------------------------------------
+; Patch number below are really the bank numbers converted from the MSB/LSB combination, 
+; i.e, Bank number = (MSB*128) + LSB
+; ----------------------------------------------------------------------------------------
+
+Patch[0]=GM/XG Bank 0
+Patch[1]=GM/XG Bank 1
+Patch[3]=GM/XG Bank 3
+Patch[6]=GM/XG Bank 6
+Patch[8]=GM/XG Bank 8
+Patch[12]=GM/XG Bank 12
+Patch[14]=GM/XG Bank 14
+Patch[16]=GM/XG Bank 16
+Patch[17]=GM/XG Bank 17
+Patch[18]=GM/XG Bank 18
+Patch[19]=GM/XG Bank 19
+Patch[20]=GM/XG Bank 20
+Patch[24]=GM/XG Bank 24
+Patch[25]=GM/XG Bank 25
+Patch[27]=GM/XG Bank 27
+Patch[28]=GM/XG Bank 28
+Patch[32]=GM/XG Bank 32
+Patch[33]=GM/XG Bank 33
+Patch[34]=GM/XG Bank 34
+Patch[35]=GM/XG Bank 35
+Patch[36]=GM/XG Bank 36
+Patch[37]=GM/XG Bank 37
+Patch[38]=GM/XG Bank 38
+Patch[40]=GM/XG Bank 40
+Patch[41]=GM/XG Bank 41
+Patch[42]=GM/XG Bank 42
+Patch[43]=GM/XG Bank 43
+Patch[45]=GM/XG Bank 45
+Patch[64]=GM/XG Bank 64
+Patch[65]=GM/XG Bank 65
+Patch[66]=GM/XG Bank 66
+Patch[67]=GM/XG Bank 67
+Patch[68]=GM/XG Bank 68
+Patch[69]=GM/XG Bank 69
+Patch[70]=GM/XG Bank 70
+Patch[71]=GM/XG Bank 71
+Patch[72]=GM/XG Bank 72
+Patch[96]=GM/XG Bank 96
+Patch[97]=GM/XG Bank 97
+Patch[98]=GM/XG Bank 98
+Patch[99]=GM/XG Bank 99
+Patch[100]=GM/XG Bank 100
+Patch[101]=GM/XG Bank 101
+Patch[8192]=GM/XG Bank 8192
+
+Patch[*]=PSR-SX900 Bank 0
+
+;Panel Voices
+Patch[104]=PSR-SX900 Bank 104
+Patch[105]=PSR-SX900 Bank 105
+Patch[106]=PSR-SX900 Bank 106
+Patch[107]=PSR-SX900 Bank 107
+Patch[108]=PSR-SX900 Bank 108
+Patch[109]=PSR-SX900 Bank 109
+Patch[110]=PSR-SX900 Bank 110
+Patch[111]=PSR-SX900 Bank 111
+Patch[112]=PSR-SX900 Bank 112
+Patch[113]=PSR-SX900 Bank 113
+Patch[114]=PSR-SX900 Bank 114
+Patch[115]=PSR-SX900 Bank 115
+Patch[116]=PSR-SX900 Bank 116
+Patch[117]=PSR-SX900 Bank 117
+Patch[118]=PSR-SX900 Bank 118
+Patch[119]=PSR-SX900 Bank 119
+Patch[120]=PSR-SX900 Bank 120
+Patch[121]=PSR-SX900 Bank 121
+Patch[122]=PSR-SX900 Bank 122
+Patch[123]=PSR-SX900 Bank 123
+Patch[124]=PSR-SX900 Bank 124
+Patch[125]=PSR-SX900 Bank 125
+Patch[126]=PSR-SX900 Bank 126
+Patch[127]=PSR-SX900 Bank 127
+
+;Megavoices
+Patch[1024]=PSR-SX900 Megavoices Bank 1024
+Patch[1025]=PSR-SX900 Megavoices Bank 1025
+Patch[1026]=PSR-SX900 Megavoices Bank 1026
+Patch[1027]=PSR-SX900 Megavoices Bank 1027
+Patch[1028]=PSR-SX900 Megavoices Bank 1028
+Patch[1029]=PSR-SX900 Megavoices Bank 1029
+Patch[1030]=PSR-SX900 Megavoices Bank 1030
+Patch[1031]=PSR-SX900 Megavoices Bank 1031
+Patch[1032]=PSR-SX900 Megavoices Bank 1032
+
+
+;Super Articulation
+Patch[1056]=PSR-SX900 SuperArticulation Bank 1056
+Patch[1057]=PSR-SX900 SuperArticulation Bank 1057
+Patch[1058]=PSR-SX900 SuperArticulation Bank 1058
+Patch[1059]=PSR-SX900 SuperArticulation Bank 1059
+Patch[1060]=PSR-SX900 SuperArticulation Bank 1060
+Patch[1061]=PSR-SX900 SuperArticulation Bank 1061
+Patch[1062]=PSR-SX900 SuperArticulation Bank 1062
+Patch[1063]=PSR-SX900 SuperArticulation Bank 1063
+Patch[1064]=PSR-SX900 SuperArticulation Bank 1064
+Patch[1065]=PSR-SX900 SuperArticulation Bank 1065
+Patch[1066]=PSR-SX900 SuperArticulation Bank 1066
+Patch[1067]=PSR-SX900 SuperArticulation Bank 1067
+Patch[1068]=PSR-SX900 SuperArticulation Bank 1068
+Patch[1069]=PSR-SX900 SuperArticulation Bank 1069
+Patch[1070]=PSR-SX900 SuperArticulation Bank 1070
+Patch[1071]=PSR-SX900 SuperArticulation Bank 1071
+Patch[1072]=PSR-SX900 SuperArticulation Bank 1072
+Patch[1073]=PSR-SX900 SuperArticulation Bank 1073
+Patch[1074]=PSR-SX900 SuperArticulation Bank 1074
+Patch[1075]=PSR-SX900 SuperArticulation Bank 1075
+Patch[1076]=PSR-SX900 SuperArticulation Bank 1076
+Patch[1077]=PSR-SX900 SuperArticulation Bank 1077
+Patch[1078]=PSR-SX900 SuperArticulation Bank 1078
+Patch[1079]=PSR-SX900 SuperArticulation Bank 1079
+Patch[1080]=PSR-SX900 SuperArticulation Bank 1080
+Patch[1081]=PSR-SX900 SuperArticulation Bank 1081
+Patch[1082]=PSR-SX900 SuperArticulation Bank 1082
+
+
+;OrganFlutes
+Patch[1280]=PSR-SX900 OrganFlutes Bank 1280
+Patch[1281]=PSR-SX900 OrganFlutes Bank 1281
+Patch[1282]=PSR-SX900 OrganFlutes Bank 1282
+Patch[1283]=PSR-SX900 OrganFlutes Bank 1283
+Patch[1284]=PSR-SX900 OrganFlutes Bank 1284
+Patch[1285]=PSR-SX900 OrganFlutes Bank 1285
+Patch[1286]=PSR-SX900 OrganFlutes Bank 1286
+Patch[1287]=PSR-SX900 OrganFlutes Bank 1287
+Patch[1288]=PSR-SX900 OrganFlutes Bank 1288
+Patch[1289]=PSR-SX900 OrganFlutes Bank 1289
+
+
+;MSB104 Voices
+Patch[13312]=PSR-SX900 MSB104 Bank 13312
+Patch[13313]=PSR-SX900 MSB104 Bank 13313
+Patch[13314]=PSR-SX900 MSB104 Bank 13314
+Patch[13315]=PSR-SX900 MSB104 Bank 13315
+Patch[13316]=PSR-SX900 MSB104 Bank 13316
+Patch[13317]=PSR-SX900 MSB104 Bank 13317
+Patch[13318]=PSR-SX900 MSB104 Bank 13318
+Patch[13319]=PSR-SX900 MSB104 Bank 13319
+Patch[13320]=PSR-SX900 MSB104 Bank 13320
+Patch[13321]=PSR-SX900 MSB104 Bank 13321
+Patch[13322]=PSR-SX900 MSB104 Bank 13322
+Patch[13323]=PSR-SX900 MSB104 Bank 13323
+Patch[13324]=PSR-SX900 MSB104 Bank 13324
+Patch[13325]=PSR-SX900 MSB104 Bank 13325
+Patch[13326]=PSR-SX900 MSB104 Bank 13326
+Patch[13327]=PSR-SX900 MSB104 Bank 13327
+Patch[13328]=PSR-SX900 MSB104 Bank 13328
+Patch[13329]=PSR-SX900 MSB104 Bank 13329
+Patch[13330]=PSR-SX900 MSB104 Bank 13330
+Patch[13331]=PSR-SX900 MSB104 Bank 13331
+Patch[13332]=PSR-SX900 MSB104 Bank 13332
+Patch[13333]=PSR-SX900 MSB104 Bank 13333
+Patch[13334]=PSR-SX900 MSB104 Bank 13334
+Patch[13335]=PSR-SX900 MSB104 Bank 13335
+Patch[13336]=PSR-SX900 MSB104 Bank 13336
+Patch[13337]=PSR-SX900 MSB104 Bank 13337
+Patch[13338]=PSR-SX900 MSB104 Bank 13338
+Patch[13339]=PSR-SX900 MSB104 Bank 13339
+Patch[13340]=PSR-SX900 MSB104 Bank 13340
+Patch[13341]=PSR-SX900 MSB104 Bank 13341
+Patch[13342]=PSR-SX900 MSB104 Bank 13342
+Patch[13343]=PSR-SX900 MSB104 Bank 13343
+Patch[13344]=PSR-SX900 MSB104 Bank 13344
+Patch[13345]=PSR-SX900 MSB104 Bank 13345
+Patch[13346]=PSR-SX900 MSB104 Bank 13346
+Patch[13347]=PSR-SX900 MSB104 Bank 13347
+Patch[13348]=PSR-SX900 MSB104 Bank 13348
+Patch[13349]=PSR-SX900 MSB104 Bank 13349
+Patch[13350]=PSR-SX900 MSB104 Bank 13350
+Patch[13351]=PSR-SX900 MSB104 Bank 13351
+Patch[13352]=PSR-SX900 MSB104 Bank 13352 
+Patch[13353]=PSR-SX900 MSB104 Bank 13353
+Patch[13354]=PSR-SX900 MSB104 Bank 13354
+Patch[13355]=PSR-SX900 MSB104 Bank 13355
+Patch[13356]=PSR-SX900 MSB104 Bank 13356
+Patch[13357]=PSR-SX900 MSB104 Bank 13357
+Patch[13358]=PSR-SX900 MSB104 Bank 13358
+Patch[13359]=PSR-SX900 MSB104 Bank 13359
+Patch[13360]=PSR-SX900 MSB104 Bank 13360
+Patch[13361]=PSR-SX900 MSB104 Bank 13361
+Patch[13362]=PSR-SX900 MSB104 Bank 13362
+Patch[13363]=PSR-SX900 MSB104 Bank 13363
+
+
+;GM2 Voices
+Patch[15360]=PSR-SX900 GM2 Drums
+Key[15360,0]=GM2 Standard Kit
+Key[15360,8]=GM2 Room Kit
+Key[15360,16]=GM2 Power Kit
+Key[15360,24]=GM2 Electronic Kit
+Key[15360,25]=GM2 Analog Kit
+Key[15360,32]=GM2 Jazz Kit
+Key[15360,40]=GM2 Brush Kit
+Key[15360,48]=GM2 Orchestra Kit
+Key[15360,56]=GM2 SFX Kit
+
+; Indicate that this bank is percussive, i.e, each key is a different instrument/voice
+Drum[15360,*]=1
+
+Patch[15488]=PSR-SX900 GM2 Bank 15488
+Patch[15489]=PSR-SX900 GM2 Bank 15489
+Patch[15490]=PSR-SX900 GM2 Bank 15490
+Patch[15491]=PSR-SX900 GM2 Bank 15491
+Patch[15492]=PSR-SX900 GM2 Bank 15492
+Patch[15493]=PSR-SX900 GM2 Bank 15493
+Patch[15494]=PSR-SX900 GM2 Bank 15494
+Patch[15495]=PSR-SX900 GM2 Bank 15495
+Patch[15496]=PSR-SX900 GM2 Bank 15496
+Patch[15497]=PSR-SX900 GM2 Bank 15497
+
+
+;SFX
+Patch[16128]=PSR-SX900 SFX
+Key[16128,0]=PSR-SX900 SFX Kit 1
+Key[16128,1]=PSR-SX900 SFX Kit 2
+Key[16128,2]=PSR-SX900 NewSFX Kit 1
+Key[16128,3]=PSR-SX900 NewSFX Kit 2
+Key[16128,8]=PSR-SX900 SFX NoisesKit
+Key[16128,20]=PSR-SX900 SFX BassDrumKit
+Key[16128,21]=PSR-SX900 SFX ReverseBDKit
+Key[16128,35]=PSR-SX900 SFX ArabicKit2
+Key[16128,36]=PSR-SX900 SFX ArabicKit1
+Key[16128,40]=PSR-SX900 Live!SFX CubanKit
+Key[16128,43]=PSR-SX900 Live!SFX PopLatinKit1
+Key[16128,44]=PSR-SX900 Live!SFX PopLatinKit2
+Key[16128,45]=PSR-SX900 Live!Drums PopPercKit
+Key[16128,49]=PSR-SX900 Live!SFX CymbalKit
+Key[16128,64]=PSR-SX900 SFX ArabicMixKit
+Key[16128,67]=PSR-SX900 Live!SFX TurkishKit
+Key[16128,106]=PSR-SX900 Live!SFX VocalBeatbox
+Key[16128,109]=PSR-SX900 Live!SFX VocalEffectsKit
+Key[16128,110]=PSR-SX900 Live!SFX GospelAdLibs
+Key[16128,114]=PSR-SX900 SFX IndianKit
+Key[16128,124]=PSR-SX900 SFX ChineseKit
+
+; Indicate that this bank is percussive, i.e, each key is a different instrument/voice
+Drum[16128,*]=1
+
+;Drum Kits
+Patch[16256]=PSR-SX900 Drums
+Key[16256,0]=PSR-SX900 Live!Drums StandardKit1
+Key[16256,1]=PSR-SX900 Live!Drums StandardKit2
+Key[16256,4]=PSR-SX900 Drums HitKit
+Key[16256,8]=PSR-SX900 Drums RoomKit
+Key[16256,16]=PSR-SX900 Drums RockKit
+Key[16256,17]=PSR-SX900 Live!Drums RockDrumKit
+Key[16256,24]=PSR-SX900 Drums ElectroKit1
+Key[16256,25]=PSR-SX900 Drums AnalogKit
+Key[16256,27]=PSR-SX900 Drums DanceKit
+Key[16256,32]=PSR-SX900 Drums JazzKit
+Key[16256,40]=PSR-SX900 Live!Drums BrushKit
+Key[16256,41]=PSR-SX900 Live!Drums RealBrushesKit
+Key[16256,48]=PSR-SX900 Live!Drums SymphonyKit
+Key[16256,56]=PSR-SX900 Drums HipHopKit
+Key[16256,57]=PSR-SX900 Drums BreakKit
+Key[16256,58]=PSR-SX900 Drums AnalogT8Kit
+Key[16256,59]=PSR-SX900 Drums AnalogT9Kit
+Key[16256,60]=PSR-SX900 Drums HouseKit
+Key[16256,61]=PSR-SX900 Drums DrumMachine
+Key[16256,66]=PSR-SX900 Drums 80sPopKit
+Key[16256,67]=PSR-SX900 Drums 80sR&B Kit
+Key[16256,68]=PSR-SX900 Drums DubstepKit
+Key[16256,69]=PSR-SX900 Drums EDM Kit
+Key[16256,70]=PSR-SX900 Drums ElectroKit2
+Key[16256,71]=PSR-SX900 Drums TrapKit
+Key[16256,72]=PSR-SX900 Drums SchlagerKit
+Key[16256,73]=PSR-SX900 Live!Drums PopDrumKit
+Key[16256,75]=PSR-SX900 Live!Drums JazzBrushKitComp
+Key[16256,86]=PSR-SX900 Live!Drums StudioKit
+Key[16256,87]=PSR-SX900 Live!Drums PowerKit1
+Key[16256,88]=PSR-SX900 Live!Drums PowerKit2
+Key[16256,89]=PSR-SX900 Live!Drums AcousticKit
+Key[16256,90]=PSR-SX900 Live!Drums RockKit
+Key[16256,91]=PSR-SX900 Live!Drums RealDrumKit
+Key[16256,127]=PSR-SX900 SFX ChineseMixKit
+
+; Indicate that this bank is percussive, i.e, each key is a different instrument/voice
+Drum[16256,*]=1
+
+
+
+
+
+
